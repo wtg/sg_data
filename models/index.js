@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const Sequelize = require('sequelize')
 
-const connection = new Sequelize('postgres://localhost/sg_data')
+const connection = new Sequelize(process.env.DATABASE_URL || 'postgres://localhost/sg_data')
 
 let models = {}
 
