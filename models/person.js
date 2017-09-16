@@ -2,9 +2,10 @@
 
 module.exports = (connection, DataTypes) => {
     const Person = connection.define('person', {
-        username: {
+        rcsId: {
             type: DataTypes.STRING,
-            unique: true
+            primaryKey: true,
+            required: true
         },
         studentId: {
             type: DataTypes.STRING(9)

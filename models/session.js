@@ -1,23 +1,41 @@
 'use strict'
 
 module.exports = (connection, DataTypes) => {
-    const Session = connection.define('session', {
+    let Session = connection.define('session', {
         uniqueId: {
             type: DataTypes.STRING,
             primaryKey: true,
-            required: true,
-            unique: true,
-            set(value) {
-                this.setDataValue('uniqueId', this.getDataValue('bodyUniqueId') + '/' + value)
-            }
+            required: true
+        },
+        bodyUniqueId: {
+            type: DataTypes.STRING,
+            primaryKey: true,
+            required: true
         },
         name: {
             type: DataTypes.STRING,
             required: true
+        },
+        fullUniqueId: {
+            type: new DataTypes.VIRTUAL(DataTypes.STRING, [
+                'uniqueId', 'bodyUniqueId'
+            ]),
+            get() {
+                return this.get('bodyUniqueId') + '/' + this.get('uniqueId')
+            }
         }
     })
 
-    Session.belongsTo(connection.import('./body'))
+    Session.queryIncludes = (connection) => {
+        return [{
+            model: connection.model('body'),
+            attributes: ['name', 'uniqueId']
+        }]
+    }
+
+    Session.belongsTo(connection.import('./body'), {
+        foreignKey: 'bodyUniqueId'
+    })
 
     return Session
 }

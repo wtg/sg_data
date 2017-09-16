@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "erd": "./node_modules/sequelize-erd/bin/generate --source ./models/index.js --destination erd.svg"
   },
   "author": "Justin Etzine",
   "license": "MIT",
@@ -14,8 +16,10 @@
     "epilogue": "^0.7.1",
     "express": "^4.15.4",
     "method-override": "^2.3.9",
+    "moment": "^2.18.1",
     "pg": "^7.3.0",
     "pg-hstore": "^2.3.2",
+    "pug": "^2.0.0-rc.4",
     "sequelize": "^4.8.3"
   },
   "devDependencies": {
