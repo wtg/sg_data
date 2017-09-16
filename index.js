@@ -16,5 +16,5 @@ connection.sync().then(() => {
 
     app.use(require('./routes')(connection))
 
-    app.listen(3000)
+    app.listen(process.env.PORT || 3000, process.env.IP || 'localhost')
 })
