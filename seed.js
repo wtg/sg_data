@@ -78,7 +78,7 @@ connection.sync({ force: true }).then(() => {
         uniqueId: 'slc',
         sessionUniqueId: '47',
         bodyUniqueId: 'senate',
-        presidingPositionId: 1
+        presidingPositionId: 2
     }))
 
     .then(() => connection.model('membership').create({
