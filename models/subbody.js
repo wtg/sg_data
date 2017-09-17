@@ -39,28 +39,9 @@ module.exports = (connection, DataTypes) => {
             model: connection.model('position'),
             attributes: ['name', 'voting', 'officer'],
             as: "presidingPosition",
-            // where: {
-            //     $and: {
-            //         sessionUniqueId: { $eq: Sequelize.col('subbody.sessionUniqueId') },
-            //         bodyUniqueId: { $eq: Sequelize.col('subbody.bodyUniqueId') },
-            //     }
-            // },
             include: [{
                 model: connection.model('membership'),
                 attributes: ['personRcsId', 'current'],
-                // where: {
-                //     $and: {
-                //         endDate: {
-                //             $or: {
-                //                 $eq: null,
-                //                 $gt: moment().format('YYYY-MM-DD')
-                //             }
-                //         },
-                //         startDate: {
-                //             $lte: moment().format('YYYY-MM-DD')
-                //         }
-                //     }
-                // }
             }]
         }, {
             model: connection.model('session'),
@@ -86,6 +67,11 @@ module.exports = (connection, DataTypes) => {
 
     Subbody.belongsTo(connection.import('./position'), {
         as: "presidingPosition"
+    })
+
+    Subbody.belongsTo(connection.import('./master_subbody'), {
+        targetKey: 'uniqueId',
+        foreignKey: 'uniqueId'
     })
 
     return Subbody

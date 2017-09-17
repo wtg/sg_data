@@ -53,18 +53,43 @@ connection.sync({ force: true }).then(() => {
         rcsId: 'merroh'
     }))
 
-    .then(() => connection.model('position').create({
+    .then(() => connection.model('master_position').create({
+        name: 'Grand Marshal',
+        voting: false,
+        officer: true
+    })).then(() => connection.model('master_position').create({
         name: 'Student Life Committee Chairperson',
+        voting: false,
+        officer: true
+    }))
+
+    .then(() => connection.model('position').create({
+        name: '152nd Grand Marshal',
+        masterPositionId: 1,
         bodyUniqueId: 'senate',
         sessionUniqueId: '48',
         voting: false,
         officer: true
     })).then(() => connection.model('position').create({
         name: 'Student Life Committee Chairperson',
+        masterPositionId: 2,
+        bodyUniqueId: 'senate',
+        sessionUniqueId: '48',
+        voting: false,
+        officer: true
+    })).then(() => connection.model('position').create({
+        name: 'Student Life Committee Chairperson',
+        masterPositionId: 2,
         bodyUniqueId: 'senate',
         sessionUniqueId: '47',
         voting: false,
         officer: true
+    }))
+
+    .then(() => connection.model('master_subbody').create({
+        name: 'Student Life Committee',
+        uniqueId: 'slc',
+        bodyUniqueId: 'senate'
     }))
 
     .then(() => connection.model('subbody').create({
@@ -91,4 +116,7 @@ connection.sync({ force: true }).then(() => {
         endDate: '2017-04-07',
         positionId: 2
     }))
+
+
+    .then(() => connection.close())
 })

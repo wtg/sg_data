@@ -14,7 +14,7 @@ connection.sync().then(() => {
     app.use(cookieParser())
     app.use(methodOverride())
 
-    app.use(require('./routes')(connection))
+    app.use('/api/v1', require('./routes')(connection))
 
     app.listen(process.env.PORT || 3000, () => {
         console.log('Listening on port ' + (process.env.PORT || 3000))

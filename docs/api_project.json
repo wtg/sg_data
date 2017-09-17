@@ -1,0 +1,1 @@
+{  "title": "Student Government Data",  "url": "https://sgdata.etz.io",  "name": "sg_data",  "version": "1.0.0",  "description": "",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-09-17T15:11:40.987Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }}

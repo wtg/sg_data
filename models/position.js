@@ -10,6 +10,10 @@ module.exports = (connection, DataTypes) => {
             type: DataTypes.STRING,
             required: true
         },
+        masterPositionId: {
+            type: DataTypes.INTEGER,
+            required: true
+        },
         name: {
             type: DataTypes.STRING,
             required: true
@@ -32,6 +36,11 @@ module.exports = (connection, DataTypes) => {
     Position.belongsTo(connection.import('./session'), {
         targetKey: 'bodyUniqueId',
         foreignKey: 'bodyUniqueId'
+    })
+
+    Position.belongsTo(connection.import('./master_position'), {
+        targetKey: 'id',
+        foreignKey: 'masterPositionId'
     })
 
     Position.hasMany(connection.model('membership'), { foreignKey: 'positionId' })

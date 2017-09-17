@@ -14,7 +14,7 @@ module.exports = connection => {
 
         let configuration = {
             model: connection.model(name),
-            endpoints: [`/${tName}`, `/${tName}/:uniqueId`]
+            endpoints: [`/${tName}`, `/${tName}/:id`]
         }
 
         if('queryIncludes' in connection.model(name)) {

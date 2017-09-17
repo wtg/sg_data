@@ -10,6 +10,10 @@
   },
   "author": "Justin Etzine",
   "license": "MIT",
+  "apidoc": {
+    "title": "Student Government Data",
+    "url" : "https://sgdata.etz.io"
+  },
   "dependencies": {
     "body-parser": "^1.18.1",
     "cookie-parser": "^1.4.3",
@@ -23,6 +27,7 @@
     "sequelize": "^4.8.3"
   },
   "devDependencies": {
+    "apidoc": "^0.17.6",
     "sequelize-erd": "^1.0.7"
   }
 }
