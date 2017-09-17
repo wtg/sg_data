@@ -14,7 +14,7 @@
   "license": "MIT",
   "apidoc": {
     "title": "Student Government Data",
-    "url" : "https://sgdata.etz.io"
+    "url" : "https://sgdata.etz.io/api"
   },
   "dependencies": {
     "body-parser": "^1.18.1",

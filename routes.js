@@ -10,15 +10,16 @@ module.exports = connection => {
     })
 
     for(let name of Object.keys(connection.models)) {
-        const tName = connection.model(name).getTableName()
+        const model = connection.model(name)
+        const tName = model.getTableName()
 
         let configuration = {
-            model: connection.model(name),
-            endpoints: [`/${tName}`, `/${tName}/:id`]
+            model: model,
+            endpoints: [`/${tName}`, `/${tName}/:${model.primaryKeyAttribute}`]
         }
 
-        if('queryIncludes' in connection.model(name)) {
-            configuration.include = connection.model(name).queryIncludes(connection)
+        if('queryIncludes' in model) {
+            configuration.include = model.queryIncludes(connection)
         }
 
         let resource = epilogue.resource(configuration)
