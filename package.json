@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm run erd && npm run apidoc",
     "start": "node index.js",
     "seed": "node seed.js",
-    "erd": "./node_modules/sequelize-erd/bin/generate --source ./models/index.js --destination erd.svg"
+    "erd": "./node_modules/sequelize-erd/bin/generate --source ./models/index.js --destination erd.svg",
+    "apidoc": "./node_modules/apidoc/bin/apidoc -i models/ -o docs/"
   },
   "author": "Justin Etzine",
   "license": "MIT",
