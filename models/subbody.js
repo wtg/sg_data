@@ -48,12 +48,6 @@ module.exports = (connection, DataTypes) => {
 
     Subbody.queryIncludes = () => {
         return [{
-            model: connection.model('position'),
-            as: "presidingPosition",
-            include: [{
-                model: connection.model('membership')
-            }]
-        }, {
             model: connection.model('session'),
             where: {
                 $and: {
