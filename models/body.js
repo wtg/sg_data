@@ -132,5 +132,26 @@ module.exports = (connection, DataTypes) => {
         }]
     }
 
+    Body.milestones = {
+        list: {
+            fetch: {
+                after: function(req, res, context) {
+                    for(let body of context.instance) {
+                        body.dataValues.sessions.sort((a, b) => {
+                            if (a.dataValues.uniqueId > b.dataValues.uniqueId)
+                                return -1
+                            else if (a.dataValues.uniqueId < b.dataValues.uniqueId)
+                                return 1
+                            else
+                                return 0
+                        })
+                    }
+
+                    return context.continue
+                }
+            }
+        }
+    }
+
     return Body
 }

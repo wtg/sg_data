@@ -36,6 +36,10 @@ module.exports = connection => {
         }
 
         let resource = epilogue.resource(configuration)
+
+        if('milestones' in model) {
+            resource.use(model.milestones)
+        }
     }
 
     router.get('/', (req, res) => {
