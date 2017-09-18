@@ -31,6 +31,10 @@ module.exports = connection => {
             configuration.include = model.queryIncludes(connection)
         }
 
+        if('defaultSort' in model) {
+            configuration.sort = { default: model.defaultSort }
+        }
+
         let resource = epilogue.resource(configuration)
     }
 

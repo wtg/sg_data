@@ -44,10 +44,6 @@ module.exports = (connection, DataTypes) => {
             targetKey: 'bodyUniqueId',
             foreignKey: 'bodyUniqueId'
         })
-
-        Subbody.belongsTo(models['position'], {
-            as: "presidingPosition"
-        })
     }
 
     Subbody.queryIncludes = () => {

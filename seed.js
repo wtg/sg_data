@@ -1,6 +1,7 @@
 'use strict'
 
 const connection = require('./models')
+const axios = require('axios')
 
 connection.sync({ force: true }).then(() => {
     let promises = []
@@ -68,16 +69,38 @@ connection.sync({ force: true }).then(() => {
 
     .then(() => connection.model('person').bulkCreate([
         { rcsId: 'etzinj' },
-        { rcsId: 'meese' },
+        { rcsId: 'qiaot' },
         { rcsId: 'warnes3' },
+        { rcsId: 'ferras4' },
+        { rcsId: 'millej19' },
+        { rcsId: 'meese' },
         { rcsId: 'merroh' },
-        { rcsId: 'gabbis' },
-        { rcsId: 'bushn' },
-        { rcsId: 'gardnm4' },
-        { rcsId: 'venusj2' },
+        { rcsId: 'raov3' },
         { rcsId: 'speras' },
-        { rcsId: 'ilorip' },
-        { rcsId: 'millej19' }
+        { rcsId: 'bushn' },
+        { rcsId: 'crochm' },
+        { rcsId: 'duducs' },
+        { rcsId: 'rowank' },
+        { rcsId: 'duffyc2' },
+        { rcsId: 'lettkm' },
+        { rcsId: 'thomaj14' },
+        { rcsId: 'wangl17' },
+        { rcsId: 'ashlea' },
+        { rcsId: 'angelj2' },
+        { rcsId: 'bishoa3' },
+        { rcsId: 'gardnm4' },
+        { rcsId: 'jennis4' },
+        { rcsId: 'pandak' },
+        { rcsId: 'kochms' },
+        { rcsId: 'pollen' },
+        { rcsId: 'gabbis' },
+        { rcsId: 'wangt9' },
+        { rcsId: 'carawc' },
+        { rcsId: 'venusj2' },
+        { rcsId: 'freedj2' },
+        { rcsId: 'cosarm' },
+        { rcsId: 'chopry' },
+        { rcsId: 'ilorip' }
     ]))
 
     .then(() => connection.model('position').bulkCreate([
@@ -161,6 +184,24 @@ connection.sync({ force: true }).then(() => {
         },
         {
             name: 'Greek Senator (Panhellenic)',
+            bodyUniqueId: 'senate',
+            voting: true,
+            officer: false
+        },
+        {
+            name: 'Greek Senator (IFC)',
+            bodyUniqueId: 'senate',
+            voting: true,
+            officer: false
+        },
+        {
+            name: 'Independent Senator',
+            bodyUniqueId: 'senate',
+            voting: true,
+            officer: false
+        },
+        {
+            name: 'Graduate Senator',
             bodyUniqueId: 'senate',
             voting: true,
             officer: false
@@ -272,6 +313,14 @@ connection.sync({ force: true }).then(() => {
             bodyUniqueId: 'senate'
         },
         {
+            personRcsId: 'raov3',
+            name: 'Class of 2018 Senator',
+            startDate: '2017-04-07',
+            positionId: 10,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
             personRcsId: 'speras',
             name: 'Class of 2018 Senator',
             startDate: '2016-04-15',
@@ -312,6 +361,62 @@ connection.sync({ force: true }).then(() => {
             name: 'Class of 2019 Senator',
             startDate: '2017-04-07',
             positionId: 11,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'rowank',
+            name: 'Class of 2019 Senator',
+            startDate: '2017-04-07',
+            positionId: 11,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'crochm',
+            name: 'Class of 2019 Senator',
+            startDate: '2017-04-07',
+            positionId: 11,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'duducs',
+            name: 'Class of 2019 Senator',
+            startDate: '2017-09-08',
+            positionId: 11,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'duffyc2',
+            name: 'Class of 2020 Senator',
+            startDate: '2017-04-07',
+            positionId: 12,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'wangl17',
+            name: 'Class of 2020 Senator',
+            startDate: '2017-04-07',
+            positionId: 12,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'thomaj14',
+            name: 'Class of 2020 Senator',
+            startDate: '2017-04-07',
+            positionId: 12,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'lettkm',
+            name: 'Class of 2020 Senator',
+            startDate: '2017-04-07',
+            positionId: 12,
             sessionUniqueId: '48',
             bodyUniqueId: 'senate'
         },
@@ -372,10 +477,145 @@ connection.sync({ force: true }).then(() => {
             name: 'Web Technologies Group Chairperson',
             startDate: '2015-04-15',
             endDate: '2016-04-15',
-            positionId: 15,
+            positionId: 18,
             sessionUniqueId: '46',
             bodyUniqueId: 'senate'
         },
+        {
+            personRcsId: 'ferras4',
+            name: 'Greek Senator (IFC)',
+            startDate: '2017-04-07',
+            positionId: 15,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'qiaot',
+            name: 'Independent Senator',
+            startDate: '2017-04-07',
+            positionId: 16,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'warnes3',
+            name: 'Independent Senator',
+            startDate: '2017-04-07',
+            positionId: 16,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'pandak',
+            name: 'Graduate Senator',
+            startDate: '2017-04-07',
+            positionId: 17,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'jennis4',
+            name: 'Graduate Senator',
+            startDate: '2017-04-07',
+            positionId: 17,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'bishoa3',
+            name: 'Graduate Senator',
+            startDate: '2017-04-07',
+            positionId: 17,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'ashlea',
+            name: 'Graduate Senator',
+            startDate: '2017-04-07',
+            positionId: 17,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'gardnm4',
+            name: 'Graduate Senator',
+            startDate: '2017-04-07',
+            positionId: 17,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'angelj2',
+            name: 'Graduate Senator',
+            startDate: '2017-04-07',
+            positionId: 17,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        }
+    ]))
+
+    .then(() => connection.model('subbody').bulkCreate([
+        {
+            uniqueId: 'aac',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Academic Affairs Committee'
+        },
+        {
+            uniqueId: 'crc',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Community Relations Committee'
+        },
+        {
+            uniqueId: 'fsc',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Facilities and Services Committee'
+        },
+        {
+            uniqueId: 'hsac',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Hospitality Services Advisory Committee'
+        },
+        {
+            uniqueId: 'irc',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Internal Reforms Committee'
+        },
+        {
+            uniqueId: 'rne',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Rules & Elections Committee'
+        },
+        {
+            uniqueId: 'slc',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Student Life Committee'
+        },
+        {
+            uniqueId: 'sgcc',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Student Government Communications Committee'
+        },
+        {
+            uniqueId: 'uar',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Union Annual Report Committee'
+        },
+        {
+            uniqueId: 'wtg',
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            name: 'Web Technologies Group'
+        }
     ]))
 
     .then(() => connection.model('meeting').bulkCreate([
@@ -387,34 +627,87 @@ connection.sync({ force: true }).then(() => {
         }
     ]))
 
-    .then(() => connection.model('action').bulkCreate([
-        {
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            meetingNum: 1,
-            description: 'Confirmation of Interim Officer Appointments',
-            text: "The Rensselaer Union 48th Student Senate hereby RESOLVES:\n1. To confirm the Grand Marshal’s interim appointments of:\n    1. Jennie Miller '19 as Interim Parliamentarian;\n    2. David Raab '19 as Interim Rules and Elections Chair;\n    3. Varun Rao '18 as Interim Academic Affairs Chair;\n    4. Austin Miller '17 as Interim Facilities and Services Chair;\n    5. Ellie Mees '18 as Interim Student Life Chair;\n    6. Ellie Mees '18 as Interim Student Government Communications Chair;\n    7. Leo Gallo '19 as Interim Community Relations Chair; and\n    8. Sidney Kochman ’19 as Interim Web Technologies Chair.",
-            status: "Passed",
-            votesFor: 19,
-            votesAgainst: 0,
-            abstentions: 0,
-            movingMemberId: 17,
-            secondingMemberId: 18
-        },
-        {
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            meetingNum: 1,
-            description: 'Internal Reforms Committee Formation',
-            text: "The Rensselaer Union 48th Student Senate hereby RESOLVES:\n1. To establish the Internal Reforms Committee as a standing committee of the Student Senate.",
-            status: "Passed",
-            votesFor: 18,
-            votesAgainst: 0,
-            abstentions: 1,
-            movingMemberId: 18,
-            secondingMemberId: 17
+
+
+    .then(() => {
+        const url = "https://spreadsheets.google.com/feeds/list/1WBiEutYCz-EZn1SfJMC3SCGuqmSS9Esgj_V_sZR06Ho/od6/public/values?alt=json"
+        return axios.get(url)
+    }).then(response => {
+        let actions = []
+
+        const membershipIdMappings = {
+          "Ellie Mees": 10,
+          "Hannah Merrow": 11,
+          "Steve Sperazza": 12,
+          "Varun Rao": 13,
+          "Nancy Bush": 18,
+          "Kinsley Rowan": 19,
+          "Mary Clare Crochiere": 20,
+          "Steve Duduch": 21,
+          "Chris Duffy": 22,
+          "Lily Wang": 23,
+          "Joshua Thomas": 24,
+          "Meagan Lettko": 25,
+          "Jennie Miller": 26,
+          "Sean Ferracioli": 33,
+          "Tianyi Qiao": 34,
+          "Stefanie Warner": 35,
+          "Kinshuk Panda": 36,
+          "Stephanie Jennings": 37,
+          "Anthony Bishop": 38,
+          "Anthony Ashley": 39,
+          "Michael Gardner": 40,
+          "Jordan Angel": 41
         }
-    ]))
+
+        const subbodyIdMappings = {
+            'Academic Affairs Committee': 'aac',
+            'Community Relations Committee': 'crc',
+            'Facilities and Services Committee': 'fsc',
+            'Hospitality Services Advisory Committee': 'hsac',
+            'Internal Reforms Committee': 'irc',
+            'Rules & Elections Committee': 'rne',
+            'Student Life Committee': 'slc',
+            'Student Government Communications Committee': 'sgcc',
+            'Union Annual Report Committee': 'uar',
+            'Web Technologies Group': 'wtg'
+        }
+
+        for(var entry of response.data.feed.entry) {
+            if(entry["gsx$status"]["t"] != "Not Yet Moved") {
+                let a = {
+                    description: entry["gsx$descriptor"]["$t"],
+                    sessionUniqueId: '48',
+                    bodyUniqueId: 'senate',
+                    meetingNum: entry["gsx$gbm"]["$t"],
+                    actionNum: entry["gsx$motion"]["$t"],
+                    text: entry["gsx$motiontext"]["$t"].replace(/\r\n/g, "\n"),
+                    status: entry["gsx$status"]["$t"],
+                    votesFor: entry["gsx$votesfor"]["$t"],
+                    votesAgainst: entry["gsx$votesagainst"]["$t"],
+                    abstentions: entry["gsx$abstentions"]["$t"]
+                }
+
+                if(membershipIdMappings[entry["gsx$movedby"]["$t"]]) {
+                    a.movingMemberId = membershipIdMappings[entry["gsx$movedby"]["$t"]]
+                } else if(subbodyIdMappings[entry["gsx$movedby"]["$t"]]) {
+                    a.movingSubbodyUniqueId = subbodyIdMappings[entry["gsx$movedby"]["$t"]]
+                }
+
+                if(membershipIdMappings[entry["gsx$secondedby"]["$t"]]) {
+                    a.secondingMemberId = membershipIdMappings[entry["gsx$secondedby"]["$t"]]
+                }
+
+
+
+                actions.push(a)
+            }
+        }
+
+        console.log(actions)
+
+        return connection.model('action').bulkCreate(actions)
+    })
 
     // .then(() => connection.model('position').create({
     //     name: '152nd Grand Marshal',

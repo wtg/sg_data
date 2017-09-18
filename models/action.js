@@ -1,7 +1,20 @@
 'use strict'
 
+const Sequelize = require('sequelize')
+
 module.exports = (connection, DataTypes) => {
     const Action = connection.define('action', {
+        actionIndicator: {
+            type: DataTypes.VIRTUAL(DataTypes.STRING, [
+                'bodyUniqueId', 'sessionUniqueId', 'meetingNum', 'actionNum'
+            ]),
+            get() {
+                return this.getDataValue('bodyUniqueId')[0].toUpperCase() + '.' +
+                    this.getDataValue('sessionUniqueId') + '.' +
+                    this.getDataValue('meetingNum') + '.' +
+                    this.getDataValue('actionNum')
+            }
+        },
         sessionUniqueId: {
             type: DataTypes.STRING,
             primaryKey: true,
@@ -44,14 +57,6 @@ module.exports = (connection, DataTypes) => {
         abstentions: {
             type: DataTypes.INTEGER,
             default: 0
-        },
-        voteCount: {
-            type: DataTypes.VIRTUAL(DataTypes.STRING, [
-                'votesFor', 'votesAgainst', 'abstentions'
-            ]),
-            get() {
-                return `${this.getDataValue('votesFor')}-${this.getDataValue('votesAgainst')}-${this.getDataValue('abstentions')}`
-            }
         }
     })
 
@@ -73,15 +78,29 @@ module.exports = (connection, DataTypes) => {
 
         Action.belongsTo(models['membership'], { as: 'movingMember' })
         Action.belongsTo(models['membership'], { as: 'secondingMember' })
+
         Action.belongsTo(models['subbody'], { as: 'movingSubbody' })
     }
+
+    Action.defaultSort = 'bodyUniqueId,-sessionUniqueId,-meetingNum,-actionNum'
 
     Action.queryIncludes = (connection) => {
         return [
             { model: connection.model('meeting') },
             { model: connection.model('membership'), as: 'movingMember' },
             { model: connection.model('membership'), as: 'secondingMember' },
-            { model: connection.model('subbody'), as: 'movingSubbody' }
+            {
+                model: connection.model('subbody'),
+                as: 'movingSubbody',
+                required: false,
+                where: {
+                    $and: {
+                        uniqueId: { $eq: Sequelize.col('action.movingSubbodyUniqueId') },
+                        sessionUniqueId: { $eq: Sequelize.col('action.sessionUniqueId') },
+                        bodyUniqueId: { $eq: Sequelize.col('action.bodyUniqueId') }
+                    }
+                }
+            }
         ]
     }
 
