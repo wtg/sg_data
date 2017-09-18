@@ -12,11 +12,15 @@ module.exports = (connection, DataTypes) => {
         },
         voting: {
             type: DataTypes.BOOLEAN,
-            required: true
+            default: false
         },
         officer: {
             type: DataTypes.BOOLEAN,
-            required: true
+            default: false
+        },
+        presidingOfficer: {
+            type: DataTypes.BOOLEAN,
+            default: false
         }
     })
 
