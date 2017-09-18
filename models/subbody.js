@@ -46,6 +46,8 @@ module.exports = (connection, DataTypes) => {
         })
     }
 
+    Subbody.defaultSort = 'name'
+
     Subbody.queryIncludes = () => {
         return [{
             model: connection.model('session'),
