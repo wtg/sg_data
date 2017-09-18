@@ -1,3 +1,5 @@
+'use strict'
+
 const epilogue = require('epilogue')
 const express = require('express')
 
@@ -13,9 +15,16 @@ module.exports = connection => {
         const model = connection.model(name)
         const tName = model.getTableName()
 
+        console.log(tName, model.primaryKeyAttributes)
+
+        let templateUrl = ''
+        for(const k of model.primaryKeyAttributes) {
+            templateUrl += `/:${k}`
+        }
+
         let configuration = {
             model: model,
-            endpoints: [`/${tName}`, `/${tName}/:${model.primaryKeyAttribute}`]
+            endpoints: [`/${tName}`, `/${tName}${templateUrl}`]
         }
 
         if('queryIncludes' in model) {

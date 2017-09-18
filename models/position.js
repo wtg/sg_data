@@ -1,17 +1,9 @@
 'use strict'
 
 module.exports = (connection, DataTypes) => {
-    const Position = connection.define('position', {
-        sessionUniqueId: {
-            type: DataTypes.STRING,
-            required: true
-        },
+    let Position = connection.define('position', {
         bodyUniqueId: {
             type: DataTypes.STRING,
-            required: true
-        },
-        masterPositionId: {
-            type: DataTypes.INTEGER,
             required: true
         },
         name: {
@@ -28,22 +20,23 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
-    Position.belongsTo(connection.import('./session'), {
-        targetKey: 'uniqueId',
-        foreignKey: 'sessionUniqueId'
-    })
+    Position.associate = models => {
+        Position.belongsTo(models['body'], {
+            targetKey: 'uniqueId',
+            foreignKey: 'bodyUniqueId'
+        })
 
-    Position.belongsTo(connection.import('./session'), {
-        targetKey: 'bodyUniqueId',
-        foreignKey: 'bodyUniqueId'
-    })
+        Position.hasMany(models['membership'], {
+            foreignKey: 'positionId'
+        })
+    }
 
-    Position.belongsTo(connection.import('./master_position'), {
-        targetKey: 'id',
-        foreignKey: 'masterPositionId'
-    })
-
-    Position.hasMany(connection.model('membership'), { foreignKey: 'positionId' })
+    Position.queryIncludes = (connection) => {
+        return [
+            { model: connection.model('body') },
+            { model: connection.model('membership') }
+        ]
+    }
 
     return Position
 }

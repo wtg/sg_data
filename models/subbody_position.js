@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = (connection, DataTypes) => {
-    const SubbodyPosition = connection.define('subbody_position', {
+    let SubbodyPosition = connection.define('subbody_position', {
         name: {
             type: DataTypes.STRING,
             unique: true
@@ -12,7 +12,9 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
-    SubbodyPosition.belongsTo(connection.import('./subbody'))
+    SubbodyPosition.associate = models => {
+        SubbodyPosition.belongsTo(models['subbody'])
+    }
 
     return SubbodyPosition
 }

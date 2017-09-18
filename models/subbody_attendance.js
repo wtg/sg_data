@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = (connection, DataTypes) => {
-    const SubbodyAttendance = connection.define('subbody_attendance', {
+    let SubbodyAttendance = connection.define('subbody_attendance', {
         status: {
             type: DataTypes.BOOLEAN,
             default: false
@@ -16,8 +16,10 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
-    SubbodyAttendance.belongsTo(connection.import('./subbody_meeting'))
-    SubbodyAttendance.belongsTo(connection.import('./subbody_membership'))
+    SubbodyAttendance.associate = models => {
+        SubbodyAttendance.belongsTo(models['subbody_meeting'])
+        SubbodyAttendance.belongsTo(models['subbody_membership'])
+    }
 
     return SubbodyAttendance
 }

@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = (connection, DataTypes) => {
-    const Person = connection.define('person', {
+    let Person = connection.define('person', {
         rcsId: {
             type: DataTypes.STRING,
             primaryKey: true,
@@ -11,6 +11,18 @@ module.exports = (connection, DataTypes) => {
             type: DataTypes.STRING(9)
         }
     })
+
+    Person.associate = models => {
+        Person.hasMany(models['membership'], {
+            foreignKey: 'personRcsId'
+        })
+    }
+
+    Person.queryIncludes = (connection) => {
+        return [{
+            model: connection.model('membership')
+        }]
+    }
 
     return Person
 }

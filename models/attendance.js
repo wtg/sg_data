@@ -16,8 +16,10 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
-    Attendance.belongsTo(connection.import('./meeting'))
-    Attendance.belongsTo(connection.import('./membership'))
+    Attendance.associate = models => {
+        Attendance.belongsTo(models['meeting'])
+        Attendance.belongsTo(models['membership'])
+    }
 
     return Attendance
 }

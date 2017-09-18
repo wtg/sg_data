@@ -8,7 +8,9 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
-    Event.belongsTo(connection.import('./session'))
+    Event.associate = models => {
+        Event.belongsTo(models['session'])
+    }
 
     return Event
 }

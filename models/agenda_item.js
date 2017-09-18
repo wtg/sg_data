@@ -15,7 +15,9 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
-    AgendaItem.belongsTo(connection.import('./meeting'))
+    AgendaItem.associate = models => {
+        AgendaItem.belongsTo(models['meeting'])
+    }
 
     return AgendaItem
 }

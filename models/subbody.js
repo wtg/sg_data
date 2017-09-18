@@ -1,10 +1,10 @@
 'use strict'
 
 const Sequelize = require('sequelize')
-const moment = require('moment');
+const moment = require('moment')
 
 module.exports = (connection, DataTypes) => {
-    const Subbody = connection.define('subbody', {
+    let Subbody = connection.define('subbody', {
         uniqueId: {
             type: DataTypes.STRING,
             primaryKey: true,
@@ -34,18 +34,31 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
+    Subbody.associate = models => {
+        Subbody.belongsTo(models['session'], {
+            targetKey: 'uniqueId',
+            foreignKey: 'sessionUniqueId'
+        })
+
+        Subbody.belongsTo(models['session'], {
+            targetKey: 'bodyUniqueId',
+            foreignKey: 'bodyUniqueId'
+        })
+
+        Subbody.belongsTo(models['position'], {
+            as: "presidingPosition"
+        })
+    }
+
     Subbody.queryIncludes = () => {
         return [{
             model: connection.model('position'),
-            attributes: ['name', 'voting', 'officer'],
             as: "presidingPosition",
             include: [{
-                model: connection.model('membership'),
-                attributes: ['personRcsId', 'current'],
+                model: connection.model('membership')
             }]
         }, {
             model: connection.model('session'),
-            attributes: ['fullUniqueId','uniqueId', 'bodyUniqueId', 'name'],
             where: {
                 $and: {
                     uniqueId: { $eq: Sequelize.col('subbody.sessionUniqueId') },
@@ -54,25 +67,6 @@ module.exports = (connection, DataTypes) => {
             }
         }]
     }
-
-    Subbody.belongsTo(connection.import('./session'), {
-        targetKey: 'uniqueId',
-        foreignKey: 'sessionUniqueId'
-    })
-
-    Subbody.belongsTo(connection.import('./session'), {
-        targetKey: 'bodyUniqueId',
-        foreignKey: 'bodyUniqueId'
-    })
-
-    Subbody.belongsTo(connection.import('./position'), {
-        as: "presidingPosition"
-    })
-
-    Subbody.belongsTo(connection.import('./master_subbody'), {
-        targetKey: 'uniqueId',
-        foreignKey: 'uniqueId'
-    })
 
     return Subbody
 }

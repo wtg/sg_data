@@ -13,8 +13,9 @@
   "author": "Justin Etzine",
   "license": "MIT",
   "apidoc": {
+    "name": "Student Government Data",
     "title": "Student Government Data",
-    "url" : "https://sgdata.etz.io/api"
+    "url" : "http://sgdata.etz.io/api"
   },
   "dependencies": {
     "body-parser": "^1.18.1",

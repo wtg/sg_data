@@ -15,6 +15,12 @@ connection.sync().then(() => {
     app.use(cookieParser())
     app.use(methodOverride())
 
+    app.use(function(req, res, next) {
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+        next();
+    })
+
     app.use('/api', require('./routes')(connection))
     app.use('/erd', express.static(path.resolve('./erd.svg')))
     app.use('/', express.static(path.resolve('./docs')))

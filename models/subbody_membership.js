@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = (connection, DataTypes) => {
-    const SubbodyMembership = connection.define('subbody_membership', {
+    let SubbodyMembership = connection.define('subbody_membership', {
         startDate: {
             type: DataTypes.DATEONLY
         },
@@ -11,8 +11,10 @@ module.exports = (connection, DataTypes) => {
         }
     })
 
-    SubbodyMembership.belongsTo(connection.import('./person'))
-    SubbodyMembership.belongsTo(connection.import('./subbody_position'))
+    SubbodyMembership.associate = models => {
+        SubbodyMembership.belongsTo(models['person'])
+        SubbodyMembership.belongsTo(models['subbody_position'])
+    }
 
     return SubbodyMembership
 }
