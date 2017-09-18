@@ -624,10 +624,44 @@ connection.sync({ force: true }).then(() => {
             bodyUniqueId: 'senate',
             date: '2017-04-10',
             location: 'Ellsworth Room (RU 3602)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-04-17',
+            location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-04-24',
+            location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-05-01',
+            location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-09-02',
+            location: 'Brueggeman Room (CBIS)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-09-11',
+            location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-09-18',
+            location: 'Shelnutt (RU 3606)'
         }
     ]))
-
-
 
     .then(() => {
         const url = "https://spreadsheets.google.com/feeds/list/1WBiEutYCz-EZn1SfJMC3SCGuqmSS9Esgj_V_sZR06Ho/od6/public/values?alt=json"

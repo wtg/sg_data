@@ -86,7 +86,6 @@ module.exports = (connection, DataTypes) => {
 
     Action.queryIncludes = (connection) => {
         return [
-            { model: connection.model('meeting') },
             { model: connection.model('membership'), as: 'movingMember' },
             { model: connection.model('membership'), as: 'secondingMember' },
             {
@@ -96,6 +95,16 @@ module.exports = (connection, DataTypes) => {
                 where: {
                     $and: {
                         uniqueId: { $eq: Sequelize.col('action.movingSubbodyUniqueId') },
+                        sessionUniqueId: { $eq: Sequelize.col('action.sessionUniqueId') },
+                        bodyUniqueId: { $eq: Sequelize.col('action.bodyUniqueId') }
+                    }
+                }
+            },
+            {
+                model: connection.model('meeting'),
+                where: {
+                    $and: {
+                        meetingNum: { $eq: Sequelize.col('action.meetingNum') },
                         sessionUniqueId: { $eq: Sequelize.col('action.sessionUniqueId') },
                         bodyUniqueId: { $eq: Sequelize.col('action.bodyUniqueId') }
                     }
