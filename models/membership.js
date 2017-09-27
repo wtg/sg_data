@@ -33,6 +33,16 @@ module.exports = (connection, DataTypes) => {
                 return (!this.endDate || moment(this.endDate).isAfter(moment())) &&
                     (!moment(this.startDate).isAfter(moment()));
             }
+        },
+        term: {
+            type: DataTypes.VIRTUAL(DataTypes.STRING, [
+                'startDate', 'endDate'
+            ]),
+            get() {
+                const dateFormat = 'MMM YYYY'
+                return moment(this.startDate).format(dateFormat) + '–' +
+                    (!this.endDate ? 'present' : moment(this.endDate).format(dateFormat))
+            }
         }
     })
 

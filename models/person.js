@@ -1,5 +1,8 @@
 'use strict'
 
+const showdown = require('showdown')
+const converter = new showdown.Converter()
+
 module.exports = (connection, DataTypes) => {
     let Person = connection.define('person', {
         rcsId: {
@@ -7,8 +10,55 @@ module.exports = (connection, DataTypes) => {
             primaryKey: true,
             required: true
         },
-        studentId: {
-            type: DataTypes.STRING(9)
+        name: {
+            type: DataTypes.STRING,
+            default: null
+        },
+        image: {
+            type: DataTypes.STRING,
+            default: null,
+            validate: {
+                isUrl: true
+            }
+        },
+        biography: {
+            type: DataTypes.TEXT,
+            default: null
+        },
+        biographyHtml: {
+            type: DataTypes.VIRTUAL(DataTypes.STRING, [
+                'biography'
+            ]),
+            get() {
+                return converter.makeHtml(this.get('biography') || '')
+            }
+        },
+        email: {
+            type: DataTypes.STRING(255),
+            default: null,
+            validate: {
+                isEmail: true
+            }
+        },
+        hometown: {
+            type: DataTypes.STRING,
+            default: null
+        },
+        classYear: {
+            type: DataTypes.STRING,
+            default: null
+        },
+        major: {
+            type: DataTypes.STRING,
+            default: null
+        },
+        committees: {
+            type: DataTypes.STRING,
+            default: null
+        },
+        campusInvolvements: {
+            type: DataTypes.STRING,
+            default: null
         }
     })
 

@@ -18,6 +18,8 @@
     "url": "http://sgdata.etz.io/api"
   },
   "dependencies": {
+    "apidoc": "^0.17.6",
+    "axios": "^0.16.2",
     "body-parser": "^1.18.1",
     "cookie-parser": "^1.4.3",
     "epilogue": "^0.7.1",
@@ -28,8 +30,7 @@
     "pg-hstore": "^2.3.2",
     "pug": "^2.0.0-rc.4",
     "sequelize": "^4.8.3",
-    "apidoc": "^0.17.6",
-    "axios": "^0.16.2"
+    "showdown": "^1.7.4"
   },
   "devDependencies": {
     "sequelize-erd": "^1.0.7"

@@ -38,7 +38,13 @@ module.exports = (connection, DataTypes) => {
     Position.queryIncludes = (connection) => {
         return [
             { model: connection.model('body') },
-            { model: connection.model('membership') }
+            {
+                model: connection.model('membership'),
+                include: [{
+                    model: connection.model('person'),
+                    attributes: ['name', 'image']
+                }]
+            }
         ]
     }
 

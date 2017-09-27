@@ -68,39 +68,146 @@ connection.sync({ force: true }).then(() => {
     ]))
 
     .then(() => connection.model('person').bulkCreate([
-        { rcsId: 'etzinj' },
-        { rcsId: 'qiaot' },
-        { rcsId: 'warnes3' },
-        { rcsId: 'ferras4' },
-        { rcsId: 'millej19' },
-        { rcsId: 'meese' },
-        { rcsId: 'merroh' },
-        { rcsId: 'raov3' },
-        { rcsId: 'speras' },
-        { rcsId: 'bushn' },
-        { rcsId: 'crochm' },
-        { rcsId: 'duducs' },
-        { rcsId: 'rowank' },
-        { rcsId: 'duffyc2' },
-        { rcsId: 'lettkm' },
-        { rcsId: 'thomaj14' },
-        { rcsId: 'wangl17' },
-        { rcsId: 'ashlea' },
-        { rcsId: 'angelj2' },
-        { rcsId: 'bishoa3' },
-        { rcsId: 'gardnm4' },
-        { rcsId: 'jennis4' },
-        { rcsId: 'pandak' },
-        { rcsId: 'kochms' },
-        { rcsId: 'pollen' },
-        { rcsId: 'gabbis' },
-        { rcsId: 'wangt9' },
-        { rcsId: 'carawc' },
-        { rcsId: 'venusj2' },
-        { rcsId: 'freedj2' },
-        { rcsId: 'cosarm' },
-        { rcsId: 'chopry' },
-        { rcsId: 'ilorip' }
+        {
+            rcsId: 'etzinj',
+            name: 'Justin Etzine',
+            image: '/img/justin_etzine.jpg',
+            biography: 'I believe that each and every student has an inherent right to representation. In my role in as the chief representative of the Student Body, I work hard to represent the student body as effectively as possible.\n\nPreviously, for the 47th Student Senate, I served as the chairman of the Student Senate’s Student Life Committee. The committee ensures that students have the resources for the best possible, well-rounded RPI experience, and also advocates for and protests student rights. Some projects that took place during my term as chairman include a set of recommendations for residence hall improvements based on student feedback, an access proposals for multiple points of entry in residence halls, and recommendations for the upcoming renovations to the student handbook.\n\nFor the 46th Student Senate, I served as the chairman of the Web Technologies Group, where I worked to expand upon the technological services offered to benefit RPI students. Some of these services are Shuttle Tracking, RPI Petitions, and Concerto. I am also working to educate and empower voters with the development of the new elections website. This new and improved service gives students the opportunity to learn more about each candidate’s activities and platform.\n\nOutside of Student Government, I have participated in RPI TV, where I have previously served as business manager and facilities and equipment manager, and RPI Ambulance, where I am training to serve on night crews. I’m also a resident director for the Quadrangle and a former resident assistant for Barton Hall, where I have had the opportunity to instill in my residents the same love for RPI that drives me everyday. Through these outside involvements, I have experienced many aspects of campus, all of which have provided valuable ideas and insights that I have been proud to incorporate into my representation of the students.\n\nI grew up in South Florida, and I am a proud first-generation American. Some of my favorite hobbies include jogging, playing video games, playing tennis, and watching RPI Hockey; go Red, go White!',
+            email: 'gm@rpi.edu',
+            hometown: 'Hollywood, FL',
+            classYear: 'Class of 2018',
+            major: 'Computer Science; Information Technology & Web Science',
+            committees: 'Ex-officio member of all Senate committees; Student Life Committee (former); Web Technologies Group (former)',
+            campusInvolvements: 'Residence Life; RPI Ambulance; ITWS Student Leadership (former); RPI TV (former); The Polytechnic (former)'
+        },
+        {
+            rcsId: 'qiaot',
+            name: 'Tianyi Qiao'
+        },
+        {
+            rcsId: 'warnes3',
+            name: 'Stefanie Warner'
+        },
+        {
+            rcsId: 'ferras4',
+            name: 'Sean Ferracioli'
+        },
+        {
+            rcsId: 'millej19',
+            name: 'Jennie Miller'
+        },
+        {
+            rcsId: 'meese',
+            name: 'Ellie Mees'
+        },
+        {
+            rcsId: 'merroh',
+            name: 'Hannah Merrow'
+        },
+        {
+            rcsId: 'raov3',
+            name: 'Varun Rao'
+        },
+        {
+            rcsId: 'speras',
+            name: 'Steve Sperazza'
+        },
+        {
+            rcsId: 'bushn',
+            name: 'Nancy Bush'
+        },
+        {
+            rcsId: 'crochm',
+            name: 'Mary Clare Crochiere'
+        },
+        {
+            rcsId: 'duducs',
+            name: 'Stephen Duduch'
+        },
+        {
+            rcsId: 'rowank',
+            name: 'Kinsley Rowan'
+        },
+        {
+            rcsId: 'duffyc2',
+            name: 'Chris Duffy'
+        },
+        {
+            rcsId: 'lettkm',
+            name: 'Meagan Lettko'
+        },
+        {
+            rcsId: 'thomaj14',
+            name: 'Joshua Thomas'
+        },
+        {
+            rcsId: 'wangl17',
+            name: 'Lily Wang'
+        },
+        {
+            rcsId: 'ashlea',
+            name: 'Anthony Ashley'
+        },
+        {
+            rcsId: 'angelj2',
+            name: 'Jordan Angel'
+        },
+        {
+            rcsId: 'bishoa3',
+            name: 'Anthony Bishop'
+        },
+        {
+            rcsId: 'gardnm4',
+            name: 'Michael Gardner'
+        },
+        {
+            rcsId: 'jennis4',
+            name: 'Stephanie Jennings'
+        },
+        {
+            rcsId: 'pandak',
+            name: 'Kinshuk Panda'
+        },
+        {
+            rcsId: 'kochms',
+            name: 'Sidney Kochman'
+        },
+        {
+            rcsId: 'pollen',
+            name: 'Nino Polletta'
+        },
+        {
+            rcsId: 'gabbis',
+            name: 'Risheel Gabbireddy'
+        },
+        {
+            rcsId: 'wangt9',
+            name: 'Tim Wang'
+        },
+        {
+            rcsId: 'carawc',
+            name: 'Caleb Caraway'
+        },
+        {
+            rcsId: 'venusj2',
+            name: 'Joe Venusto'
+        },
+        {
+            rcsId: 'freedj2',
+            name: 'Jennifer Freedberg'
+        },
+        {
+            rcsId: 'cosarm',
+            name: 'Marvin Cosare'
+        },
+        {
+            rcsId: 'chopry',
+            name: 'Yuvi Chopra'
+        },
+        {
+            rcsId: 'ilorip',
+            name: 'Paul Ilori'
+        }
     ]))
 
     .then(() => connection.model('position').bulkCreate([
