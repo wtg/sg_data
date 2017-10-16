@@ -207,6 +207,22 @@ connection.sync({ force: true }).then(() => {
         {
             rcsId: 'ilorip',
             name: 'Paul Ilori'
+        },
+        {
+            rcsId: 'randm',
+            name: 'Matthew Rand'
+        },
+        {
+            rcsId: 'jamesn2',
+            name: 'Nathan James'
+        },
+        {
+            rcsId: 'cinnak',
+            name: 'Kayla Cinnamon'
+        },
+        {
+            rcsId: 'scotts',
+            name: 'Spencer Scott'
         }
     ]))
 
@@ -215,7 +231,8 @@ connection.sync({ force: true }).then(() => {
             name: 'Grand Marshal',
             bodyUniqueId: 'senate',
             voting: false,
-            officer: true
+            officer: true,
+            presidingOfficer: true
         },
         {
             name: 'Vice Chairperson of the Senate',
@@ -318,6 +335,34 @@ connection.sync({ force: true }).then(() => {
             bodyUniqueId: 'senate',
             voting: false,
             officer: true
+        },
+        {
+            name: 'President of the Union',
+            bodyUniqueId: 'eboard',
+            voting: false,
+            officer: true,
+            presidingOfficer: true
+        },
+        {
+            name: 'Judicial Board Chairman',
+            bodyUniqueId: 'jboard',
+            voting: false,
+            officer: true,
+            presidingOfficer: true
+        },
+        {
+            name: 'Undergraduate President',
+            bodyUniqueId: 'uc',
+            voting: false,
+            officer: true,
+            presidingOfficer: true
+        },
+        {
+            name: 'Graduate Council President',
+            bodyUniqueId: 'gc',
+            voting: false,
+            officer: true,
+            presidingOfficer: true
         }
     ]))
 
@@ -659,6 +704,38 @@ connection.sync({ force: true }).then(() => {
             positionId: 17,
             sessionUniqueId: '48',
             bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'randm',
+            name: '128th President of the Union',
+            startDate: '2017-04-07',
+            positionId: 19,
+            sessionUniqueId: '17-18',
+            bodyUniqueId: 'eboard'
+        },
+        {
+            personRcsId: 'jamesn2',
+            name: 'Judicial Board Chairman',
+            startDate: '2017-04-07',
+            positionId: 19,
+            sessionUniqueId: '17-18',
+            bodyUniqueId: 'jboard'
+        },
+        {
+            personRcsId: 'cinnak',
+            name: 'Undergraduate President',
+            startDate: '2017-04-07',
+            positionId: 19,
+            sessionUniqueId: '17-18',
+            bodyUniqueId: 'uc'
+        },
+        {
+            personRcsId: 'scotts',
+            name: 'Graduate Council President',
+            startDate: '2017-04-07',
+            positionId: 19,
+            sessionUniqueId: '17-18',
+            bodyUniqueId: 'gc'
         }
     ]))
 
