@@ -717,7 +717,7 @@ connection.sync({ force: true }).then(() => {
             personRcsId: 'jamesn2',
             name: 'Judicial Board Chairman',
             startDate: '2017-04-07',
-            positionId: 19,
+            positionId: 20,
             sessionUniqueId: '17-18',
             bodyUniqueId: 'jboard'
         },
@@ -725,7 +725,7 @@ connection.sync({ force: true }).then(() => {
             personRcsId: 'cinnak',
             name: 'Undergraduate President',
             startDate: '2017-04-07',
-            positionId: 19,
+            positionId: 21,
             sessionUniqueId: '17-18',
             bodyUniqueId: 'uc'
         },
@@ -733,7 +733,7 @@ connection.sync({ force: true }).then(() => {
             personRcsId: 'scotts',
             name: 'Graduate Council President',
             startDate: '2017-04-07',
-            positionId: 19,
+            positionId: 22,
             sessionUniqueId: '17-18',
             bodyUniqueId: 'gc'
         }
