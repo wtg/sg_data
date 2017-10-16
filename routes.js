@@ -43,16 +43,16 @@ module.exports = connection => {
     }
 
     router.get('/', (req, res) => {
-        var output = ''
-        for (var key in router.stack) {
+        let output = ''
+        for (let key in router.stack) {
             if (router.stack.hasOwnProperty(key)) {
-                var val = router.stack[key]
+                let val = router.stack[key]
                 if(val.route) {
                     val = val.route
                     if(val.stack[0].method === 'get') {
-                        output += `<li><a href="${val.path}">${val.path} (${val.stack[0].method})</a></li>`
+                        output += `<li><a href="/api/${val.path}">/api/${val.path} (${val.stack[0].method})</a></li>`
                     } else {
-                        output += `<li>${val.path} (${val.stack[0].method})</li>`
+                        output += `<li>/api/${val.path} (${val.stack[0].method})</li>`
                     }
                 }
             }
