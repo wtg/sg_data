@@ -250,10 +250,6 @@ connection.sync({ force: true }).then(() => {
         {
             rcsId: 'cuozzm',
             name: 'Michael Cuozzo'
-        },
-        {
-            rcsId: 'freedj2',
-            name: 'Jennifer Freedberg'
         }
     ]))
 
