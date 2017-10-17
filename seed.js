@@ -246,6 +246,14 @@ connection.sync({ force: true }).then(() => {
         {
             rcsId: 'naraya5',
             name: 'Advaith Narayan'
+        },
+        {
+            rcsId: 'cuozzm',
+            name: 'Michael Cuozzo'
+        },
+        {
+            rcsId: 'freedj2',
+            name: 'Jennifer Freedberg'
         }
     ]))
 
