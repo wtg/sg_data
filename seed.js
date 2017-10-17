@@ -396,7 +396,7 @@ connection.sync({ force: true }).then(() => {
             name: 'Student Government Communications Committee',
             startDate: '2017-04-07',
             positionId: 3,
-            sessionUniqueId: '47',
+            sessionUniqueId: '48',
             bodyUniqueId: 'senate'
         },
         {
