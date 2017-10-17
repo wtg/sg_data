@@ -33,37 +33,44 @@ connection.sync({ force: true }).then(() => {
         {
             name: '48th Student Senate',
             bodyUniqueId: 'senate',
-            uniqueId: '48'
+            uniqueId: '48',
+            active: true
         },
         {
             name: '47th Student Senate',
             bodyUniqueId: 'senate',
-            uniqueId: '47'
+            uniqueId: '47',
+            active: false
         },
         {
             name: '46th Student Senate',
             bodyUniqueId: 'senate',
-            uniqueId: '46'
+            uniqueId: '46',
+            active: false
         },
         {
             name: '2017-18 Executive Board',
             bodyUniqueId: 'eboard',
-            uniqueId: '17-18'
+            uniqueId: '17-18',
+            active: true
         },
         {
             name: '2017-18 Judicial Board',
             bodyUniqueId: 'jboard',
-            uniqueId: '17-18'
+            uniqueId: '17-18',
+            active: true
         },
         {
             name: '2017-18 Undergraduate Council',
             bodyUniqueId: 'uc',
-            uniqueId: '17-18'
+            uniqueId: '17-18',
+            active: true
         },
         {
             name: '2017-18 Graduate Council',
             bodyUniqueId: 'gc',
-            uniqueId: '17-18'
+            uniqueId: '17-18',
+            active: true
         }
     ]))
 

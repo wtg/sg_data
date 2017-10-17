@@ -96,6 +96,10 @@ module.exports = (connection, DataTypes) => {
             type: DataTypes.STRING,
             required: true
         },
+        active: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false
+        },
         fullUniqueId: {
             type: new DataTypes.VIRTUAL(DataTypes.STRING, [
                 'uniqueId', 'bodyUniqueId'
