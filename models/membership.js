@@ -6,12 +6,10 @@ const moment = require('moment')
 module.exports = (connection, DataTypes) => {
     let Membership = connection.define('membership', {
         sessionUniqueId: {
-            type: DataTypes.STRING,
-            required: true
+            type: DataTypes.STRING
         },
         bodyUniqueId: {
-            type: DataTypes.STRING,
-            required: true
+            type: DataTypes.STRING
         },
         name: {
             type: DataTypes.STRING,
@@ -25,21 +23,24 @@ module.exports = (connection, DataTypes) => {
             type: DataTypes.DATEONLY,
             default: 'NULL'
         },
+        yearOnly: {
+            type: DataTypes.BOOLEAN,
+            default: false
+        },
         current: {
             type: DataTypes.VIRTUAL(DataTypes.BOOLEAN, [
                 'startDate', 'endDate'
             ]),
-            get() {
-                return (!this.endDate || moment(this.endDate).isAfter(moment())) &&
+            get() {return (!this.endDate || moment(this.endDate).isAfter(moment())) &&
                     (!moment(this.startDate).isAfter(moment()));
             }
         },
         term: {
             type: DataTypes.VIRTUAL(DataTypes.STRING, [
-                'startDate', 'endDate'
+                'startDate', 'endDate', 'yearOnly'
             ]),
             get() {
-                const dateFormat = 'MMM YYYY'
+                const dateFormat = this.yearOnly ? 'YYYY' : 'MMM YYYY'
                 return moment(this.startDate).format(dateFormat) + '–' +
                     (!this.endDate ? 'present' : moment(this.endDate).format(dateFormat))
             }

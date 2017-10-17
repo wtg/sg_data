@@ -230,6 +230,22 @@ connection.sync({ force: true }).then(() => {
         {
             rcsId: 'scotts',
             name: 'Spencer Scott'
+        },
+        {
+            rcsId: 'baoj2',
+            name: 'Jonathan Bao'
+        },
+        {
+            rcsId: 'hilln2',
+            name: 'Naya Hill'
+        },
+        {
+            rcsId: 'mathem2',
+            name: 'Michael Mathews'
+        },
+        {
+            rcsId: 'naraya5',
+            name: 'Advaith Narayan'
         }
     ]))
 
@@ -370,6 +386,18 @@ connection.sync({ force: true }).then(() => {
             voting: false,
             officer: true,
             presidingOfficer: true
+        },
+        {
+            name: 'Human Resources Interview Committee Chairperson',
+            bodyUniqueId: 'senate',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Hospitality Services Advisory Committee Chairperson',
+            bodyUniqueId: 'senate',
+            voting: false,
+            officer: true
         }
     ]))
 
@@ -580,6 +608,38 @@ connection.sync({ force: true }).then(() => {
             bodyUniqueId: 'senate'
         },
         {
+            personRcsId: 'baoj2',
+            name: 'Class of 2021 Senator',
+            startDate: '2017-08-06',
+            positionId: 13,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'mathem2',
+            name: 'Class of 2021 Senator',
+            startDate: '2017-08-06',
+            positionId: 13,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'hilln2',
+            name: 'Class of 2021 Senator',
+            startDate: '2017-08-06',
+            positionId: 13,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'naraya5',
+            name: 'Class of 2021 Senator',
+            startDate: '2017-08-06',
+            positionId: 13,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
             personRcsId: 'millej19',
             name: 'Greek Senator (Panhellenic)',
             startDate: '2017-04-07',
@@ -743,6 +803,22 @@ connection.sync({ force: true }).then(() => {
             positionId: 22,
             sessionUniqueId: '17-18',
             bodyUniqueId: 'gc'
+        },
+        {
+            personRcsId: 'cuozzm',
+            name: 'Human Resources Interview Committee Interim Chairperson',
+            startDate: '2017-04-07',
+            positionId: 23,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
+        },
+        {
+            personRcsId: 'freedj2',
+            name: 'Hospitality Services Advisory Committee Chairperson',
+            startDate: '2017-04-07',
+            positionId: 24,
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate'
         }
     ]))
 
