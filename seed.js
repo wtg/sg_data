@@ -268,7 +268,7 @@ connection.sync({ force: true }).then(() => {
             officer: true
         },
         {
-            name: 'Student Government Communications Chairperson',
+            name: 'Student Government Communications Committee Chairperson',
             bodyUniqueId: 'senate',
             voting: false,
             officer: true
@@ -425,7 +425,7 @@ connection.sync({ force: true }).then(() => {
         },
         {
             personRcsId: 'warnes3',
-            name: 'Student Government Communications Committee',
+            name: 'Student Government Communications Committee Chairperson',
             startDate: '2017-04-07',
             positionId: 3,
             sessionUniqueId: '48',
@@ -688,7 +688,7 @@ connection.sync({ force: true }).then(() => {
         },
         {
             personRcsId: 'meese',
-            name: 'Student Government Communications Committee',
+            name: 'Student Government Communications Committee Chairperson',
             startDate: '2017-02-01',
             endDate: '2017-04-07',
             positionId: 3,
@@ -953,16 +953,16 @@ connection.sync({ force: true }).then(() => {
           "Lily Wang": 23,
           "Joshua Thomas": 24,
           "Meagan Lettko": 25,
-          "Jennie Miller": 26,
-          "Sean Ferracioli": 33,
-          "Tianyi Qiao": 34,
-          "Stefanie Warner": 35,
-          "Kinshuk Panda": 36,
-          "Stephanie Jennings": 37,
-          "Anthony Bishop": 38,
-          "Anthony Ashley": 39,
-          "Michael Gardner": 40,
-          "Jordan Angel": 41
+          "Jennie Miller": 30,
+          "Sean Ferracioli": 37,
+          "Tianyi Qiao": 38,
+          "Stefanie Warner": 16,
+          "Kinshuk Panda": 40,
+          "Stephanie Jennings": 41,
+          "Anthony Bishop": 42,
+          "Anthony Ashley": 43,
+          "Michael Gardner": 44,
+          "Jordan Angel": 45
         }
 
         const subbodyIdMappings = {
