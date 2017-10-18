@@ -141,6 +141,8 @@ module.exports = (connection, DataTypes) => {
                         count = +context.count || +req.query.count || defaultCount,
                         offset = +context.offset || +req.query.offset || 0;
 
+                    var stringOperators = /like|iLike|notLike|notILike/;
+
                     // only look up attributes we care about
                     options.attributes = options.attributes || this.resource.attributes;
 
@@ -222,7 +224,8 @@ module.exports = (connection, DataTypes) => {
                             options.order = order;
                     } else {
                         options.order = [
-                            [ connection.model('meeting'), 'date', 'desc' ]
+                            [ connection.model('meeting'), 'date', 'DESC' ],
+                            [ 'actionNum', 'DESC' ]
                         ];
                     }
 
