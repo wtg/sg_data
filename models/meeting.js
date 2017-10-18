@@ -24,6 +24,12 @@ module.exports = (connection, DataTypes) => {
             type: DataTypes.DATEONLY,
             required: true
         },
+        displayDate: {
+            type: DataTypes.VIRTUAL(DataTypes.STRING, [ 'date' ]),
+            get() {
+                return moment(this.date).format('MMMM Do, YYYY')
+            }
+        },
         location: {
             type: DataTypes.STRING,
             required: true
