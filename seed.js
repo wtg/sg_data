@@ -956,7 +956,7 @@ connection.sync({ force: true }).then(() => {
           "Jennie Miller": 30,
           "Sean Ferracioli": 37,
           "Tianyi Qiao": 38,
-          "Stefanie Warner": 16,
+          "Stefanie Warner": 39,
           "Kinshuk Panda": 40,
           "Stephanie Jennings": 41,
           "Anthony Bishop": 42,
