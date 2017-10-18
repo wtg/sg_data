@@ -82,8 +82,6 @@ module.exports = (connection, DataTypes) => {
         Action.belongsTo(models['subbody'], { as: 'movingSubbody' })
     }
 
-    Action.defaultSort = 'bodyUniqueId,-sessionUniqueId,-meetingNum,-actionNum'
-
     Action.queryIncludes = (connection) => {
         return [
             {
@@ -125,6 +123,26 @@ module.exports = (connection, DataTypes) => {
                 }
             }
         ]
+    }
+
+    Action.milestones = {
+        list: {
+            fetch: {
+                after: function(req, res, context) {
+                    context.instance.sort((a, b) => {
+                        if(a.dataValues.meeting.date > b.dataValues.meeting.date) {
+                            return -1;
+                        } else if(a.dataValues.meeting.date < b.dataValues.meeting.date) {
+                            return 1;
+                        } else {
+                            return 0;
+                        }
+                    })
+
+                    return context.continue
+                }
+            }
+        }
     }
 
     return Action
