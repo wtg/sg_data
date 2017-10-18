@@ -153,10 +153,12 @@ connection.sync().then(() => {
     	{ rcsId: "benjamin_s_hunt", name: "Benjamin S. Hunt" },
     	{ rcsId: "lee_sharma", name: "Lee Sharma" },
     	{ rcsId: "brownr13", name: "Russell Brown" },
-    	{ rcsId: "daik", name: "Kevin L. Dai" },
-    	{ rcsId: "ccarl", name: "Charles F. Carletta Jr." },
-    	{ rcsId: "keragk", name: "Kyle H. Keraga" },
-    	{ rcsId: "flowem", name: "Marcus E. Flowers" }
+    	{ rcsId: "daik", name: "Kevin Dai" },
+    	{ rcsId: "ccarl", name: "Charles Carletta Jr." },
+    	{ rcsId: "keragk", name: "Kyle Keraga" },
+    	{ rcsId: "flowem", name: "Marcus Flowers" },
+        { rcsId: "ilorip", name: "Paul Ilori" },
+        { rcsId: "etzinj", name: "Justin Etzine" }
     ])
 
     connection.model('membership').bulkCreate([
@@ -309,7 +311,9 @@ connection.sync().then(() => {
         { personRcsId: "daik", name: "147th Grand Marshal", startDate: "2012-04-01", endDate: "2013-04-01", positionId: 1, bodyUniqueId: 'senate', sessionUniqueId: '43' },
         { personRcsId: "ccarl", name: "148th Grand Marshal", startDate: "2013-04-01", endDate: "2014-04-01", positionId: 1, bodyUniqueId: 'senate', sessionUniqueId: '44' },
         { personRcsId: "keragk", name: "149th Grand Marshal", startDate: "2014-04-01", endDate: "2015-04-01", positionId: 1, bodyUniqueId: 'senate', sessionUniqueId: '45' },
-        { personRcsId: "flowem", name: "150th Grand Marshal", startDate: "2015-04-01", endDate: "2016-04-01", positionId: 1, bodyUniqueId: 'senate', sessionUniqueId: '46' }
+        { personRcsId: "flowem", name: "150th Grand Marshal", startDate: "2015-04-01", endDate: "2016-04-01", positionId: 1, bodyUniqueId: 'senate', sessionUniqueId: '46' },
+        { personRcsId: "ilorip", name: "151st Grand Marshal", startDate: "2016-04-15", endDate: "2017-04-07", positionId: 1, bodyUniqueId: 'senate', sessionUniqueId: '47' },
+        { personRcsId: "etzinj", name: "152nd Grand Marshal", startDate: "2017-04-07", positionId: 1, bodyUniqueId: 'senate', sessionUniqueId: '48' }
     ])
 
     .then(() => connection.close())

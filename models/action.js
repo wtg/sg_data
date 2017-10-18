@@ -86,8 +86,22 @@ module.exports = (connection, DataTypes) => {
 
     Action.queryIncludes = (connection) => {
         return [
-            { model: connection.model('membership'), as: 'movingMember' },
-            { model: connection.model('membership'), as: 'secondingMember' },
+            {
+                model: connection.model('membership'),
+                as: 'movingMember',
+                include: [{
+                    model: connection.model('person'),
+                    attributes: [ 'name' ]
+                }]
+            },
+            {
+                model: connection.model('membership'),
+                as: 'secondingMember',
+                include: [{
+                    model: connection.model('person'),
+                    attributes: [ 'name' ]
+                }]
+            },
             {
                 model: connection.model('subbody'),
                 as: 'movingSubbody',

@@ -24,7 +24,10 @@ module.exports = connection => {
 
         let configuration = {
             model: model,
-            endpoints: [`/${tName}`, `/${tName}${templateUrl}`]
+            endpoints: [`/${tName}`, `/${tName}${templateUrl}`],
+            search: {
+                operator: '$iLike'
+            }
         }
 
         if('queryIncludes' in model) {
