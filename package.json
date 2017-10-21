@@ -15,7 +15,7 @@
   "apidoc": {
     "name": "Student Government Data",
     "title": "Student Government Data",
-    "url": "http://sgdata.etz.io/api"
+    "url": "https://data.sg.rpi.edu/api"
   },
   "dependencies": {
     "apidoc": "^0.17.6",
