@@ -931,6 +931,30 @@ connection.sync({ force: true }).then(() => {
             bodyUniqueId: 'senate',
             date: '2017-09-18',
             location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-09-25',
+            location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-10-02',
+            location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-10-16',
+            location: 'Shelnutt (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-10-23',
+            location: 'Shelnutt (RU 3606)'
         }
     ]))
 
@@ -979,7 +1003,7 @@ connection.sync({ force: true }).then(() => {
         }
 
         for(var entry of response.data.feed.entry) {
-            if(entry["gsx$status"]["t"] != "Not Yet Moved") {
+            if(entry["gsx$status"]["$t"] !== "Not Yet Moved") {
                 let a = {
                     description: entry["gsx$descriptor"]["$t"],
                     sessionUniqueId: '48',
@@ -1013,60 +1037,6 @@ connection.sync({ force: true }).then(() => {
 
         return connection.model('action').bulkCreate(actions)
     })
-
-    // .then(() => connection.model('position').create({
-    //     name: '152nd Grand Marshal',
-    //     masterPositionId: 1,
-    //     bodyUniqueId: 'senate',
-    //     sessionUniqueId: '48',
-    //     voting: false,
-    //     officer: true
-    // })).then(() => connection.model('position').create({
-    //     name: 'Student Life Committee Chairperson',
-    //     masterPositionId: 2,
-    //     bodyUniqueId: 'senate',
-    //     sessionUniqueId: '48',
-    //     voting: false,
-    //     officer: true
-    // })).then(() => connection.model('position').create({
-    //     name: 'Student Life Committee Chairperson',
-    //     masterPositionId: 2,
-    //     bodyUniqueId: 'senate',
-    //     sessionUniqueId: '47',
-    //     voting: false,
-    //     officer: true
-    // }))
-
-    // .then(() => connection.model('master_subbody').create({
-    //     name: 'Student Life Committee',
-    //     uniqueId: 'slc',
-    //     bodyUniqueId: 'senate'
-    // }))
-
-    // .then(() => connection.model('subbody').create({
-    //     name: 'Student Life Committee',
-    //     uniqueId: 'slc',
-    //     sessionUniqueId: '48',
-    //     bodyUniqueId: 'senate',
-    //     presidingPositionId: 1
-    // })).then(() => connection.model('subbody').create({
-    //     name: 'Student Life Committee',
-    //     uniqueId: 'slc',
-    //     sessionUniqueId: '47',
-    //     bodyUniqueId: 'senate',
-    //     presidingPositionId: 2
-    // }))
-    //
-    // .then(() => connection.model('membership').create({
-    //     personRcsId: 'merroh',
-    //     startDate: '2017-04-07',
-    //     positionId: 1,
-    // })).then(() => connection.model('membership').create({
-    //     personRcsId: 'etzinj',
-    //     startDate: '2016-04-30',
-    //     endDate: '2017-04-07',
-    //     positionId: 2
-    // }))
 
 
     .then(() => connection.close())
