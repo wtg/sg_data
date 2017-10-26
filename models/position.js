@@ -48,21 +48,21 @@ module.exports = (connection, DataTypes) => {
         ]
     }
 
-    Position.milestones = {
-        list: {
-            fetch: {
-                after: function(req, res, context) {
-                    for(let position of context.instance) {
-                        position.dataValues.memberships.sort((a, b) => {
-                            return (Number((b.dataValues.name.match(/(\d+)/g)[0])) - Number(a.dataValues.name.match(/(\d+)/g)[0]));
-                        })
-                    }
-
-                    return context.continue
-                }
-            }
-        }
-    }
+    // Position.milestones = {
+    //     list: {
+    //         fetch: {
+    //             after: function(req, res, context) {
+    //                 for(let position of context.instance) {
+    //                     position.dataValues.memberships.sort((a, b) => {
+    //                         return (Number((b.dataValues.name.match(/(\d+)/g)[0])) - Number(a.dataValues.name.match(/(\d+)/g)[0]));
+    //                     })
+    //                 }
+    //
+    //                 return context.continue
+    //             }
+    //         }
+    //     }
+    // }
 
     return Position
 }

@@ -1,5 +1,6 @@
 'use strict'
 
+const Sequelize = require('sequelize')
 const showdown = require('showdown')
 const converter = new showdown.Converter()
 
@@ -70,7 +71,20 @@ module.exports = (connection, DataTypes) => {
 
     Person.queryIncludes = (connection) => {
         return [{
-            model: connection.model('membership')
+            model: connection.model('membership'),
+            include: [{
+                model: connection.model('position'),
+                attributes: ['voting', 'officer', 'presidingOfficer']
+            }, {
+                model: connection.model('session'),
+                attributes: ['name', 'uniqueId', 'bodyUniqueId'],
+                where: {
+                    $and: {
+                        uniqueId: { $eq: Sequelize.col('memberships.sessionUniqueId') },
+                        bodyUniqueId: { $eq: Sequelize.col('memberships.bodyUniqueId') }
+                    }
+                }
+            }]
         }]
     }
 

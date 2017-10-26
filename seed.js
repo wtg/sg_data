@@ -4,7 +4,7 @@ const connection = require('./models')
 const axios = require('axios')
 
 connection.sync({ force: true }).then(() => {
-    let promises = []
+    let bodyPresidingOfficerMap = {}
 
     connection.model('body').bulkCreate([
         {
@@ -250,6 +250,46 @@ connection.sync({ force: true }).then(() => {
         {
             rcsId: 'cuozzm',
             name: 'Michael Cuozzo'
+        },
+        {
+            rcsId: 'sunr2',
+            name: 'Kay Sun'
+        },
+        {
+            rcsId: 'lanee',
+            name: 'Erica Lane'
+        },
+        {
+            rcsId: 'etemai',
+            name: 'Ida Etemadi'
+        },
+        {
+            rcsId: 'choina',
+            name: 'Anissa Choiniere'
+        },
+        {
+            rcsId: 'pencil',
+            name: 'Lauren Pencille'
+        },
+        {
+            rcsId: 'bermaj',
+            name: 'Joshua Berman'
+        },
+        {
+            rcsId: 'bucklb',
+            name: 'Brenna Buckley'
+        },
+        {
+            rcsId: 'babuv',
+            name: 'Vignesh Babu'
+        },
+        {
+            rcsId: 'lyonsj7',
+            name: 'Josephine Lyons'
+        },
+        {
+            rcsId: 'lazere',
+            name: 'Evan Lazaro'
         }
     ]))
 
@@ -286,7 +326,7 @@ connection.sync({ force: true }).then(() => {
             officer: true
         },
         {
-            name: 'Facilities and Services Chairperson',
+            name: 'Facilities and Services Committee Chairperson',
             bodyUniqueId: 'senate',
             voting: false,
             officer: true
@@ -305,6 +345,24 @@ connection.sync({ force: true }).then(() => {
         },
         {
             name: 'Internal Reforms Committee Chairperson',
+            bodyUniqueId: 'senate',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Parliamentarian',
+            bodyUniqueId: 'senate',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Treasurer',
+            bodyUniqueId: 'senate',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Secretary',
             bodyUniqueId: 'senate',
             voting: false,
             officer: true
@@ -371,7 +429,7 @@ connection.sync({ force: true }).then(() => {
             presidingOfficer: true
         },
         {
-            name: 'Judicial Board Chairman',
+            name: 'Judicial Board Chairperson',
             bodyUniqueId: 'jboard',
             voting: false,
             officer: true,
@@ -402,492 +460,731 @@ connection.sync({ force: true }).then(() => {
             bodyUniqueId: 'senate',
             voting: false,
             officer: true
+        },
+        {
+            name: 'Rules and Elections Committee Chairperson',
+            bodyUniqueId: 'senate',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Union Business Operations Committee Chairperson',
+            bodyUniqueId: 'eboard',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Union Club Operations Committee Chairperson',
+            bodyUniqueId: 'eboard',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Union Marketing, Advertising, and Publicity Committee Chairperson',
+            bodyUniqueId: 'eboard',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Union Policies Committee Chairperson',
+            bodyUniqueId: 'eboard',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Union Programming and Activities Committee Chairperson',
+            bodyUniqueId: 'eboard',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Student Motor Vehicle Court Chairperson',
+            bodyUniqueId: 'jboard',
+            voting: false,
+            officer: true
+        },
+        {
+            name: 'Class of 2018 President',
+            bodyUniqueId: 'uc',
+            voting: true,
+            officer: false
+        },
+        {
+            name: 'Class of 2019 President',
+            bodyUniqueId: 'uc',
+            voting: true,
+            officer: false
+        },
+        {
+            name: 'Class of 2020 President',
+            bodyUniqueId: 'uc',
+            voting: true,
+            officer: false
+        },
+        {
+            name: 'Class of 2021 President',
+            bodyUniqueId: 'uc',
+            voting: true,
+            officer: false
         }
     ]))
 
-    .then(() => connection.model('membership').bulkCreate([
-        {
-            personRcsId: 'etzinj',
-            name: '152nd Grand Marshal',
-            startDate: '2017-04-07',
-            positionId: 1,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'ilorip',
-            name: '151st Grand Marshal',
-            startDate: '2016-04-15',
-            endDate: '2017-04-07',
-            positionId: 1,
-            sessionUniqueId: '47',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'warnes3',
-            name: 'Student Government Communications Committee Chairperson',
-            startDate: '2017-04-07',
-            positionId: 3,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'merroh',
-            name: 'Student Life Committee Chairperson',
-            startDate: '2017-04-07',
-            positionId: 4,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'gabbis',
-            name: 'Academic Affairs Committee Chairperson',
-            startDate: '2017-04-07',
-            positionId: 5,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'bushn',
-            name: 'Facilities and Services Committee Chairperson',
-            startDate: '2017-04-07',
-            positionId: 6,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'gardnm4',
-            name: 'Community Relations Committee Chairperson',
-            startDate: '2017-04-07',
-            positionId: 7,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'venusj2',
-            name: 'Senate-Executive Board Liaison',
-            startDate: '2017-04-07',
-            positionId: 8,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'speras',
-            name: 'Internal Reforms Committee Chairperson',
-            startDate: '2017-04-07',
-            positionId: 9,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'meese',
-            name: 'Class of 2018 Senator',
-            startDate: '2017-04-07',
-            positionId: 10,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'merroh',
-            name: 'Class of 2018 Senator',
-            startDate: '2017-04-07',
-            positionId: 10,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'speras',
-            name: 'Class of 2018 Senator',
-            startDate: '2017-04-07',
-            positionId: 10,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'raov3',
-            name: 'Class of 2018 Senator',
-            startDate: '2017-04-07',
-            positionId: 10,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'speras',
-            name: 'Class of 2018 Senator',
-            startDate: '2016-04-15',
-            endDate: '2017-04-07',
-            positionId: 10,
-            sessionUniqueId: '47',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'etzinj',
-            name: 'Class of 2018 Senator',
-            startDate: '2016-04-15',
-            endDate: '2017-04-07',
-            positionId: 10,
-            sessionUniqueId: '47',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'etzinj',
-            name: 'Class of 2018 Senator',
-            startDate: '2015-04-15',
-            endDate: '2016-04-15',
-            positionId: 10,
-            sessionUniqueId: '46',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'etzinj',
-            name: 'Class of 2018 Senator',
-            startDate: '2014-09-27',
-            endDate: '2015-04-15',
-            positionId: 10,
-            sessionUniqueId: '46',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'bushn',
-            name: 'Class of 2019 Senator',
-            startDate: '2017-04-07',
-            positionId: 11,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'rowank',
-            name: 'Class of 2019 Senator',
-            startDate: '2017-04-07',
-            positionId: 11,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'crochm',
-            name: 'Class of 2019 Senator',
-            startDate: '2017-04-07',
-            positionId: 11,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'duducs',
-            name: 'Class of 2019 Senator',
-            startDate: '2017-09-08',
-            positionId: 11,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'duffyc2',
-            name: 'Class of 2020 Senator',
-            startDate: '2017-04-07',
-            positionId: 12,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'wangl17',
-            name: 'Class of 2020 Senator',
-            startDate: '2017-04-07',
-            positionId: 12,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'thomaj14',
-            name: 'Class of 2020 Senator',
-            startDate: '2017-04-07',
-            positionId: 12,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'lettkm',
-            name: 'Class of 2020 Senator',
-            startDate: '2017-04-07',
-            positionId: 12,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'baoj2',
-            name: 'Class of 2021 Senator',
-            startDate: '2017-08-06',
-            positionId: 13,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'mathem2',
-            name: 'Class of 2021 Senator',
-            startDate: '2017-08-06',
-            positionId: 13,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'hilln2',
-            name: 'Class of 2021 Senator',
-            startDate: '2017-08-06',
-            positionId: 13,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'naraya5',
-            name: 'Class of 2021 Senator',
-            startDate: '2017-08-06',
-            positionId: 13,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'millej19',
-            name: 'Greek Senator (Panhellenic)',
-            startDate: '2017-04-07',
-            positionId: 14,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'etzinj',
-            name: 'Student Life Committee Chairperson',
-            startDate: '2016-04-15',
-            endDate: '2017-04-07',
-            positionId: 4,
-            sessionUniqueId: '47',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'ilorip',
-            name: 'Student Life Committee Chairperson',
-            startDate: '2015-04-15',
-            endDate: '2016-04-15',
-            positionId: 4,
-            sessionUniqueId: '46',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'meese',
-            name: 'Vice Chairperson of the Senate',
-            startDate: '2017-04-07',
-            positionId: 2,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'venusj2',
-            name: 'Vice Chairperson of the Senate',
-            startDate: '2016-04-15',
-            endDate: '2017-04-07',
-            positionId: 2,
-            sessionUniqueId: '47',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'meese',
-            name: 'Student Government Communications Committee Chairperson',
-            startDate: '2017-02-01',
-            endDate: '2017-04-07',
-            positionId: 3,
-            sessionUniqueId: '47',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'etzinj',
-            name: 'Web Technologies Group Chairperson',
-            startDate: '2015-04-15',
-            endDate: '2016-04-15',
-            positionId: 18,
-            sessionUniqueId: '46',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'ferras4',
-            name: 'Greek Senator (IFC)',
-            startDate: '2017-04-07',
-            positionId: 15,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'qiaot',
-            name: 'Independent Senator',
-            startDate: '2017-04-07',
-            positionId: 16,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'warnes3',
-            name: 'Independent Senator',
-            startDate: '2017-04-07',
-            positionId: 16,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'pandak',
-            name: 'Graduate Senator',
-            startDate: '2017-04-07',
-            positionId: 17,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'jennis4',
-            name: 'Graduate Senator',
-            startDate: '2017-04-07',
-            positionId: 17,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'bishoa3',
-            name: 'Graduate Senator',
-            startDate: '2017-04-07',
-            positionId: 17,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'ashlea',
-            name: 'Graduate Senator',
-            startDate: '2017-04-07',
-            positionId: 17,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'gardnm4',
-            name: 'Graduate Senator',
-            startDate: '2017-04-07',
-            positionId: 17,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'angelj2',
-            name: 'Graduate Senator',
-            startDate: '2017-04-07',
-            positionId: 17,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'randm',
-            name: '128th President of the Union',
-            startDate: '2017-04-07',
-            positionId: 19,
-            sessionUniqueId: '17-18',
-            bodyUniqueId: 'eboard'
-        },
-        {
-            personRcsId: 'jamesn2',
-            name: 'Judicial Board Chairman',
-            startDate: '2017-04-07',
-            positionId: 20,
-            sessionUniqueId: '17-18',
-            bodyUniqueId: 'jboard'
-        },
-        {
-            personRcsId: 'cinnak',
-            name: 'Undergraduate President',
-            startDate: '2017-04-07',
-            positionId: 21,
-            sessionUniqueId: '17-18',
-            bodyUniqueId: 'uc'
-        },
-        {
-            personRcsId: 'scotts',
-            name: 'Graduate Council President',
-            startDate: '2017-04-07',
-            positionId: 22,
-            sessionUniqueId: '17-18',
-            bodyUniqueId: 'gc'
-        },
-        {
-            personRcsId: 'cuozzm',
-            name: 'Human Resources Interview Committee Interim Chairperson',
-            startDate: '2017-04-07',
-            positionId: 23,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        },
-        {
-            personRcsId: 'freedj2',
-            name: 'Hospitality Services Advisory Committee Chairperson',
-            startDate: '2017-04-07',
-            positionId: 24,
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate'
-        }
-    ]))
+    .then(() => connection.model('position').findAll())
 
-    .then(() => connection.model('subbody').bulkCreate([
-        {
-            uniqueId: 'aac',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Academic Affairs Committee'
-        },
-        {
-            uniqueId: 'crc',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Community Relations Committee'
-        },
-        {
-            uniqueId: 'fsc',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Facilities and Services Committee'
-        },
-        {
-            uniqueId: 'hsac',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Hospitality Services Advisory Committee'
-        },
-        {
-            uniqueId: 'irc',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Internal Reforms Committee'
-        },
-        {
-            uniqueId: 'rne',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Rules & Elections Committee'
-        },
-        {
-            uniqueId: 'slc',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Student Life Committee'
-        },
-        {
-            uniqueId: 'sgcc',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Student Government Communications Committee'
-        },
-        {
-            uniqueId: 'uar',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Union Annual Report Committee'
-        },
-        {
-            uniqueId: 'wtg',
-            sessionUniqueId: '48',
-            bodyUniqueId: 'senate',
-            name: 'Web Technologies Group'
+    .then(positions => {
+        let positionNameIdMap = {}
+
+        for(const p of positions) {
+            positionNameIdMap[p.dataValues.name] = p.dataValues.id
         }
-    ]))
+
+        let memberships = [
+            {
+                personRcsId: 'etzinj',
+                name: '152nd Grand Marshal',
+                tempPositionName: 'Grand Marshal',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'ilorip',
+                name: '151st Grand Marshal',
+                tempPositionName: 'Grand Marshal',
+                startDate: '2016-04-15',
+                endDate: '2017-04-07',
+                sessionUniqueId: '47',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'warnes3',
+                name: 'Student Government Communications Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'merroh',
+                name: 'Student Life Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'gabbis',
+                name: 'Academic Affairs Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'bushn',
+                name: 'Facilities and Services Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'gardnm4',
+                name: 'Community Relations Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'venusj2',
+                name: 'Senate-Executive Board Liaison',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'speras',
+                name: 'Internal Reforms Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'meese',
+                name: 'Class of 2018 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'merroh',
+                name: 'Class of 2018 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'speras',
+                name: 'Class of 2018 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'raov3',
+                name: 'Class of 2018 Senator',
+                startDate: '2017-04-07',
+                endDate: '2017-10-21',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'speras',
+                name: 'Class of 2018 Senator',
+                startDate: '2016-04-15',
+                endDate: '2017-04-07',
+                sessionUniqueId: '47',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'etzinj',
+                name: 'Class of 2018 Senator',
+                startDate: '2016-04-15',
+                endDate: '2017-04-07',
+                sessionUniqueId: '47',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'etzinj',
+                name: 'Class of 2018 Senator',
+                startDate: '2015-04-15',
+                endDate: '2016-04-15',
+                sessionUniqueId: '46',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'etzinj',
+                name: 'Class of 2018 Senator',
+                startDate: '2014-09-27',
+                endDate: '2015-04-15',
+                sessionUniqueId: '46',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'bushn',
+                name: 'Class of 2019 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'rowank',
+                name: 'Class of 2019 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'crochm',
+                name: 'Class of 2019 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'duducs',
+                name: 'Class of 2019 Senator',
+                startDate: '2017-09-08',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'chopry',
+                name: 'Class of 2019 Senator',
+                startDate: '2017-04-07',
+                endDate: '2017-09-06',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'duffyc2',
+                name: 'Class of 2020 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'wangl17',
+                name: 'Class of 2020 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'thomaj14',
+                name: 'Class of 2020 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'lettkm',
+                name: 'Class of 2020 Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'baoj2',
+                name: 'Class of 2021 Senator',
+                startDate: '2017-08-06',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'mathem2',
+                name: 'Class of 2021 Senator',
+                startDate: '2017-08-06',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'hilln2',
+                name: 'Class of 2021 Senator',
+                startDate: '2017-08-06',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'naraya5',
+                name: 'Class of 2021 Senator',
+                startDate: '2017-08-06',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'millej19',
+                name: 'Greek Senator (Panhellenic)',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'etzinj',
+                name: 'Student Life Committee Chairperson',
+                startDate: '2016-04-15',
+                endDate: '2017-04-07',
+                sessionUniqueId: '47',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'ilorip',
+                name: 'Student Life Committee Chairperson',
+                startDate: '2015-04-15',
+                endDate: '2016-04-15',
+                sessionUniqueId: '46',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'meese',
+                name: 'Vice Chairperson of the Senate',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'venusj2',
+                name: 'Vice Chairperson of the Senate',
+                startDate: '2016-04-15',
+                endDate: '2017-04-07',
+                sessionUniqueId: '47',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'meese',
+                name: 'Student Government Communications Committee Chairperson',
+                startDate: '2017-02-01',
+                endDate: '2017-04-07',
+                sessionUniqueId: '47',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'etzinj',
+                name: 'Web Technologies Group Chairperson',
+                startDate: '2015-04-15',
+                endDate: '2016-04-15',
+                sessionUniqueId: '46',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'kochms',
+                name: 'Web Technologies Group Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'ferras4',
+                name: 'Greek Senator (IFC)',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'qiaot',
+                name: 'Independent Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'warnes3',
+                name: 'Independent Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'pandak',
+                name: 'Graduate Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'jennis4',
+                name: 'Graduate Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'bishoa3',
+                name: 'Graduate Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'ashlea',
+                name: 'Graduate Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'gardnm4',
+                name: 'Graduate Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'angelj2',
+                name: 'Graduate Senator',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'wangt9',
+                name: 'Secretary',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'millej19',
+                name: 'Parliamentarian',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'pollen',
+                name: 'Treasurer',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'randm',
+                name: '128th President of the Union',
+                tempPositionName: 'President of the Union',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard'
+            },
+            {
+                personRcsId: 'jamesn2',
+                name: 'Judicial Board Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'jboard'
+            },
+            {
+                personRcsId: 'cinnak',
+                name: 'Undergraduate President',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc'
+            },
+            {
+                personRcsId: 'scotts',
+                name: 'Graduate Council President',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'gc'
+            },
+            {
+                personRcsId: 'cuozzm',
+                name: 'Human Resources Interview Committee Interim Chairperson',
+                tempPositionName: 'Human Resources Interview Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'freedj2',
+                name: 'Hospitality Services Advisory Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'carawc',
+                name: 'Rules and Elections Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'sunr2',
+                name: 'Union Business Operations Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard'
+            },
+            {
+                personRcsId: 'lanee',
+                name: 'Union Club Operations Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard'
+            },
+            {
+                personRcsId: 'etemai',
+                name: 'Union Marketing, Advertising, and Publicity Committee Chairperson',
+                startDate: '2017-09-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard'
+            },
+            {
+                personRcsId: 'choina',
+                name: 'Union Policies Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard'
+            },
+            {
+                personRcsId: 'pencil',
+                name: 'Union Programming and Activities Committee Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard'
+            },
+            {
+                personRcsId: 'bermaj',
+                name: 'Student Motor Vehicle Court Chairperson',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'jboard'
+            },
+            {
+                personRcsId: 'bucklb',
+                name: 'Class of 2018 President',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc'
+            },
+            {
+                personRcsId: 'babuv',
+                name: 'Class of 2019 President',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc'
+            },
+            {
+                personRcsId: 'lyonsj7',
+                name: 'Class of 2020 President',
+                startDate: '2017-04-07',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc'
+            },
+            {
+                personRcsId: 'lazere',
+                name: 'Class of 2021 President',
+                startDate: '2017-10-02',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc'
+            }
+        ]
+
+        for(let m of memberships) {
+            m.positionId = positionNameIdMap[m.tempPositionName || m.name]
+            if(m.tempPositionName) delete m.tempPositionName
+        }
+
+        connection.model('membership').bulkCreate(memberships)
+    })
+    .then(() => connection.model('position').findAll())
+
+    .then(positions => {
+        let positionNameMap = {}
+
+        for(const p of positions) {
+            positionNameMap[p.dataValues.name] = p.dataValues.id
+        }
+
+        let subbodies = [
+            {
+                uniqueId: 'aac',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Academic Affairs Committee'
+            },
+            {
+                uniqueId: 'crc',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Community Relations Committee'
+            },
+            {
+                uniqueId: 'fsc',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Facilities and Services Committee'
+            },
+            {
+                uniqueId: 'hsac',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Hospitality Services Advisory Committee'
+            },
+            {
+                uniqueId: 'hri',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Human Resources Interview Committee'
+            },
+            {
+                uniqueId: 'irc',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Internal Reforms Committee'
+            },
+            {
+                uniqueId: 'rne',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Rules and Elections Committee'
+            },
+            {
+                uniqueId: 'slc',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Student Life Committee'
+            },
+            {
+                uniqueId: 'sgcc',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Student Government Communications Committee'
+            },
+            {
+                uniqueId: 'uar',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Union Annual Report Committee'
+            },
+            {
+                uniqueId: 'wtg',
+                sessionUniqueId: '48',
+                bodyUniqueId: 'senate',
+                name: 'Web Technologies Group'
+            },
+            {
+                uniqueId: 'policies',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard',
+                name: 'Union Policies Committee'
+            },
+            {
+                uniqueId: 'busops',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard',
+                name: 'Union Business Operations Committee'
+            },
+            {
+                uniqueId: 'clubops',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard',
+                name: 'Union Club Operations Committee'
+            },
+            {
+                uniqueId: 'upac',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard',
+                name: 'Union Programming and Activities Committee'
+            },
+            {
+                uniqueId: 'map',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'eboard',
+                name: 'Union Marketing, Advertising, and Publicity Committee'
+            },
+            {
+                uniqueId: 'smvc',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'jboard',
+                name: 'Student Motor Vehicle Court'
+            },
+            {
+                uniqueId: '2018',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc',
+                name: 'Class of 2018 Council'
+            },
+            {
+                uniqueId: '2019',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc',
+                name: 'Class of 2019 Council'
+            },
+            {
+                uniqueId: '2020',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc',
+                name: 'Class of 2020 Council'
+            },
+            {
+                uniqueId: '2021',
+                sessionUniqueId: '17-18',
+                bodyUniqueId: 'uc',
+                name: 'Class of 2021 Council'
+            }
+        ]
+
+        for(let s of subbodies) {
+            let councilRegex
+
+            if(positionNameMap[s.name + ' Chairperson']) {
+                s.presidingOfficerPositionId = positionNameMap[s.name + ' Chairperson']
+            } else if(s.name === 'Union Annual Report Committee' && positionNameMap['Senate-Executive Board Liaison']) {
+                s.presidingOfficerPositionId = positionNameMap['Senate-Executive Board Liaison']
+            } else if(!!(councilRegex = s.name.match(/Class of ([0-9]*) Council/i)) && positionNameMap['Class of ' + councilRegex[1] + ' President']) {
+                s.presidingOfficerPositionId = positionNameMap['Class of ' + councilRegex[1] + ' President']
+            }
+        }
+
+        return connection.model('subbody').bulkCreate(subbodies)
+    })
 
     .then(() => connection.model('meeting').bulkCreate([
         {
@@ -900,19 +1197,19 @@ connection.sync({ force: true }).then(() => {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-04-17',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-04-24',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-05-01',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
@@ -924,37 +1221,37 @@ connection.sync({ force: true }).then(() => {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-09-11',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-09-18',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-09-25',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-10-02',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-10-16',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         },
         {
             sessionUniqueId: '48',
             bodyUniqueId: 'senate',
             date: '2017-10-23',
-            location: 'Shelnutt (RU 3606)'
+            location: 'Shelnutt Gallery (RU 3606)'
         }
     ]))
 

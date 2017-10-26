@@ -1,5 +1,7 @@
 'use strict'
 
+const Sequelize = require('sequelize')
+
 /**
  * @apiDefine BodyUniqueIdParam
  *
@@ -123,12 +125,16 @@ module.exports = (connection, DataTypes) => {
 
     Body.associate = models => {
         Body.hasMany(models['session'], { foreignKey: 'bodyUniqueId' })
+        Body.hasMany(models['position'], { foreignKey: 'bodyUniqueId', scope: { presidingOfficer: true }, as: 'presidingOfficers' })
     }
 
     Body.queryIncludes = () => {
         return [{
             model: connection.model('session'),
-            attributes: ['fullUniqueId', 'uniqueId', 'name']
+            attributes: ['fullUniqueId', 'uniqueId', 'name', 'active']
+        }, {
+            model: connection.model('position'),
+            as: 'presidingOfficers'
         }]
     }
 
@@ -137,16 +143,17 @@ module.exports = (connection, DataTypes) => {
             fetch: {
                 after: function(req, res, context) {
                     for(let body of context.instance) {
-                        body.dataValues.sessions.sort((a, b) => {
-                            if (a.dataValues.uniqueId > b.dataValues.uniqueId)
-                                return -1
-                            else if (a.dataValues.uniqueId < b.dataValues.uniqueId)
-                                return 1
-                            else
-                                return 0
-                        })
+                        body = sessionSort(body)
                     }
 
+                    return context.continue
+                }
+            }
+        },
+        read: {
+            fetch: {
+                after: function(req, res, context) {
+                    context.instance = sessionSort(context.instance)
                     return context.continue
                 }
             }
@@ -154,4 +161,21 @@ module.exports = (connection, DataTypes) => {
     }
 
     return Body
+}
+
+function sessionSort (body) {
+    body.dataValues.sessions.sort((a, b) => {
+        if (a.dataValues.active && !b.dataValues.active)
+            return -1
+        else if (!a.dataValues.active && b.dataValues.active)
+            return 1
+        else if (a.dataValues.uniqueId > b.dataValues.uniqueId)
+            return -1
+        else if (a.dataValues.uniqueId < b.dataValues.uniqueId)
+            return 1
+        else
+            return 0
+    })
+
+    return body
 }
