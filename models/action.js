@@ -2,6 +2,8 @@
 
 const Sequelize = require('sequelize')
 const _ = require('lodash')
+const showdown = require('showdown')
+const converter = new showdown.Converter()
 
 module.exports = (connection, DataTypes) => {
     const Action = connection.define('action', {
@@ -16,12 +18,12 @@ module.exports = (connection, DataTypes) => {
                     this.getDataValue('actionNum')
             }
         },
-        sessionUniqueId: {
+        bodyUniqueId: {
             type: DataTypes.STRING,
             primaryKey: true,
             required: true
         },
-        bodyUniqueId: {
+        sessionUniqueId: {
             type: DataTypes.STRING,
             primaryKey: true,
             required: true
@@ -43,6 +45,14 @@ module.exports = (connection, DataTypes) => {
             type: DataTypes.TEXT,
             required: true
         },
+        textHtml: {
+            type: DataTypes.VIRTUAL(DataTypes.STRING, [
+                'text'
+            ]),
+            get() {
+                return converter.makeHtml(this.get('text') || '')
+            }
+        },
         status: {
             type: DataTypes.TEXT,
             required: true
@@ -58,6 +68,14 @@ module.exports = (connection, DataTypes) => {
         abstentions: {
             type: DataTypes.INTEGER,
             default: 0
+        },
+        movingSubbodyUniqueId: {
+            type: DataTypes.STRING,
+            required: false
+        },
+        movingOtherEntity: {
+            type: DataTypes.STRING,
+            required: false
         }
     })
 
@@ -80,7 +98,23 @@ module.exports = (connection, DataTypes) => {
         Action.belongsTo(models['membership'], { as: 'movingMember' })
         Action.belongsTo(models['membership'], { as: 'secondingMember' })
 
-        Action.belongsTo(models['subbody'], { as: 'movingSubbody' })
+        Action.belongsTo(models['subbody'], {
+            targetKey: 'uniqueId',
+            foreignKey: 'movingSubbodyUniqueId',
+            required: false
+        })
+
+        Action.belongsTo(models['subbody'], {
+            targetKey: 'bodyUniqueId',
+            foreignKey: 'bodyUniqueId',
+            required: false
+        })
+
+        Action.belongsTo(models['subbody'], {
+            targetKey: 'sessionUniqueId',
+            foreignKey: 'sessionUniqueId',
+            required: false
+        })
     }
 
     Action.queryIncludes = (connection) => {
@@ -90,7 +124,7 @@ module.exports = (connection, DataTypes) => {
                 as: 'movingMember',
                 include: [{
                     model: connection.model('person'),
-                    attributes: [ 'name' ]
+                    attributes: [ 'name', 'rcsId' ]
                 }]
             },
             {
@@ -98,12 +132,11 @@ module.exports = (connection, DataTypes) => {
                 as: 'secondingMember',
                 include: [{
                     model: connection.model('person'),
-                    attributes: [ 'name' ]
+                    attributes: [ 'name', 'rcsId' ]
                 }]
             },
             {
                 model: connection.model('subbody'),
-                as: 'movingSubbody',
                 required: false,
                 where: {
                     $and: {

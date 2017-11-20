@@ -25,7 +25,7 @@ module.exports = (connection, DataTypes) => {
         },
         yearOnly: {
             type: DataTypes.BOOLEAN,
-            default: false
+            defaultValue: false
         },
         current: {
             type: DataTypes.VIRTUAL(DataTypes.BOOLEAN, [

@@ -74,7 +74,7 @@ module.exports = (connection, DataTypes) => {
             model: connection.model('membership'),
             include: [{
                 model: connection.model('position'),
-                attributes: ['voting', 'officer', 'presidingOfficer']
+                attributes: ['voting', 'officer', 'presidingOfficer', 'name']
             }, {
                 model: connection.model('session'),
                 attributes: ['name', 'uniqueId', 'bodyUniqueId'],

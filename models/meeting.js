@@ -5,12 +5,12 @@ const moment = require('moment')
 
 module.exports = (connection, DataTypes) => {
     let Meeting = connection.define('meeting', {
-        sessionUniqueId: {
+        bodyUniqueId: {
             type: DataTypes.STRING,
             primaryKey: true,
             required: true
         },
-        bodyUniqueId: {
+        sessionUniqueId: {
             type: DataTypes.STRING,
             primaryKey: true,
             required: true

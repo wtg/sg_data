@@ -5,6 +5,9 @@ const axios = require('axios')
 
 connection.sync({ force: true }).then(() => {
     let bodyPresidingOfficerMap = {}
+    let peopleNameMappings = {}
+    let membershipIdMappings = {}
+    let positionIdVotingMap = {}
 
     connection.model('body').bulkCreate([
         {
@@ -46,6 +49,18 @@ connection.sync({ force: true }).then(() => {
             name: '46th Student Senate',
             bodyUniqueId: 'senate',
             uniqueId: '46',
+            active: false
+        },
+        {
+            name: '45th Student Senate',
+            bodyUniqueId: 'senate',
+            uniqueId: '45',
+            active: false
+        },
+        {
+            name: '44th Student Senate',
+            bodyUniqueId: 'senate',
+            uniqueId: '44',
             active: false
         },
         {
@@ -291,242 +306,253 @@ connection.sync({ force: true }).then(() => {
             name: 'Evan Lazaro'
         }
     ]))
-
-    .then(() => connection.model('position').bulkCreate([
-        {
-            name: 'Grand Marshal',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true,
-            presidingOfficer: true
-        },
-        {
-            name: 'Vice Chairperson of the Senate',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Student Government Communications Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Student Life Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Academic Affairs Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Facilities and Services Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Community Relations Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Senate-Executive Board Liaison',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Internal Reforms Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Parliamentarian',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Treasurer',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Secretary',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Class of 2018 Senator',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Class of 2019 Senator',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Class of 2020 Senator',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Class of 2021 Senator',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Greek Senator (Panhellenic)',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Greek Senator (IFC)',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Independent Senator',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Graduate Senator',
-            bodyUniqueId: 'senate',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Web Technologies Group Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'President of the Union',
-            bodyUniqueId: 'eboard',
-            voting: false,
-            officer: true,
-            presidingOfficer: true
-        },
-        {
-            name: 'Judicial Board Chairperson',
-            bodyUniqueId: 'jboard',
-            voting: false,
-            officer: true,
-            presidingOfficer: true
-        },
-        {
-            name: 'Undergraduate President',
-            bodyUniqueId: 'uc',
-            voting: false,
-            officer: true,
-            presidingOfficer: true
-        },
-        {
-            name: 'Graduate Council President',
-            bodyUniqueId: 'gc',
-            voting: false,
-            officer: true,
-            presidingOfficer: true
-        },
-        {
-            name: 'Human Resources Interview Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Hospitality Services Advisory Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Rules and Elections Committee Chairperson',
-            bodyUniqueId: 'senate',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Union Business Operations Committee Chairperson',
-            bodyUniqueId: 'eboard',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Union Club Operations Committee Chairperson',
-            bodyUniqueId: 'eboard',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Union Marketing, Advertising, and Publicity Committee Chairperson',
-            bodyUniqueId: 'eboard',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Union Policies Committee Chairperson',
-            bodyUniqueId: 'eboard',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Union Programming and Activities Committee Chairperson',
-            bodyUniqueId: 'eboard',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Student Motor Vehicle Court Chairperson',
-            bodyUniqueId: 'jboard',
-            voting: false,
-            officer: true
-        },
-        {
-            name: 'Class of 2018 President',
-            bodyUniqueId: 'uc',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Class of 2019 President',
-            bodyUniqueId: 'uc',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Class of 2020 President',
-            bodyUniqueId: 'uc',
-            voting: true,
-            officer: false
-        },
-        {
-            name: 'Class of 2021 President',
-            bodyUniqueId: 'uc',
-            voting: true,
-            officer: false
+    .then(people => {
+        for (const p of people) {
+            peopleNameMappings[p.dataValues.rcsId] = p.dataValues.name;
         }
-    ]))
+
+        return connection.model('position').bulkCreate([
+            {
+                name: 'Grand Marshal',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true,
+                presidingOfficer: true
+            },
+            {
+                name: 'Vice Chairperson of the Senate',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Student Government Communications Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Student Life Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Academic Affairs Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Facilities and Services Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Community Relations Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Senate-Executive Board Liaison',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Internal Reforms Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Parliamentarian',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Treasurer',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Secretary',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Class of 2017 Senator',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Class of 2018 Senator',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Class of 2019 Senator',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Class of 2020 Senator',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Class of 2021 Senator',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Greek Senator (Panhellenic)',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Greek Senator (IFC)',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Independent Senator',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Graduate Senator',
+                bodyUniqueId: 'senate',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Web Technologies Group Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'President of the Union',
+                bodyUniqueId: 'eboard',
+                voting: false,
+                officer: true,
+                presidingOfficer: true
+            },
+            {
+                name: 'Judicial Board Chairperson',
+                bodyUniqueId: 'jboard',
+                voting: false,
+                officer: true,
+                presidingOfficer: true
+            },
+            {
+                name: 'Undergraduate President',
+                bodyUniqueId: 'uc',
+                voting: false,
+                officer: true,
+                presidingOfficer: true
+            },
+            {
+                name: 'Graduate Council President',
+                bodyUniqueId: 'gc',
+                voting: false,
+                officer: true,
+                presidingOfficer: true
+            },
+            {
+                name: 'Human Resources Interview Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Hospitality Services Advisory Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Rules and Elections Committee Chairperson',
+                bodyUniqueId: 'senate',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Union Business Operations Committee Chairperson',
+                bodyUniqueId: 'eboard',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Union Club Operations Committee Chairperson',
+                bodyUniqueId: 'eboard',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Union Marketing, Advertising, and Publicity Committee Chairperson',
+                bodyUniqueId: 'eboard',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Union Policies Committee Chairperson',
+                bodyUniqueId: 'eboard',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Union Programming and Activities Committee Chairperson',
+                bodyUniqueId: 'eboard',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Student Motor Vehicle Court Chairperson',
+                bodyUniqueId: 'jboard',
+                voting: false,
+                officer: true
+            },
+            {
+                name: 'Class of 2018 President',
+                bodyUniqueId: 'uc',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Class of 2019 President',
+                bodyUniqueId: 'uc',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Class of 2020 President',
+                bodyUniqueId: 'uc',
+                voting: true,
+                officer: false
+            },
+            {
+                name: 'Class of 2021 President',
+                bodyUniqueId: 'uc',
+                voting: true,
+                officer: false
+            }
+        ])
+    })
 
     .then(() => connection.model('position').findAll())
 
@@ -535,6 +561,7 @@ connection.sync({ force: true }).then(() => {
 
         for(const p of positions) {
             positionNameIdMap[p.dataValues.name] = p.dataValues.id
+            positionIdVotingMap[p.dataValues.id] = p.dataValues.voting
         }
 
         let memberships = [
@@ -796,6 +823,54 @@ connection.sync({ force: true }).then(() => {
                 bodyUniqueId: 'senate'
             },
             {
+                personRcsId: 'venusj2',
+                name: 'Class of 2017 Senator',
+                startDate: '2016-04-15',
+                endDate: '2017-02-01',
+                sessionUniqueId: '47',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'venusj2',
+                name: 'Class of 2017 Senator',
+                startDate: '2015-04-15',
+                endDate: '2015-04-15',
+                sessionUniqueId: '46',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'venusj2',
+                name: 'Class of 2017 Senator',
+                startDate: '2014-09-01',
+                endDate: '2015-04-15',
+                sessionUniqueId: '45',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'venusj2',
+                name: 'Class of 2017 Senator',
+                startDate: '2013-10-01',
+                endDate: '2014-04-01',
+                sessionUniqueId: '44',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'venusj2',
+                name: 'Hospitality Services Advisory Committee Chairperson',
+                startDate: '2015-04-01',
+                endDate: '2016-04-01',
+                sessionUniqueId: '46',
+                bodyUniqueId: 'senate'
+            },
+            {
+                personRcsId: 'venusj2',
+                name: 'Hospitality Services Advisory Committee Chairperson',
+                startDate: '2014-09-01',
+                endDate: '2015-04-01',
+                sessionUniqueId: '45',
+                bodyUniqueId: 'senate'
+            },
+            {
                 personRcsId: 'meese',
                 name: 'Student Government Communications Committee Chairperson',
                 startDate: '2017-02-01',
@@ -1032,7 +1107,18 @@ connection.sync({ force: true }).then(() => {
 
         connection.model('membership').bulkCreate(memberships)
     })
-    .then(() => connection.model('position').findAll())
+    .then(() => connection.model('membership').findAll())
+    .then(memberships => {
+        for (const m of memberships) {
+            if(positionIdVotingMap[m.dataValues.positionId]) {
+                membershipIdMappings[peopleNameMappings[m.dataValues.personRcsId]] = m.dataValues.id
+            }
+        }
+
+        console.log(membershipIdMappings);
+
+        return connection.model('position').findAll()
+    })
 
     .then(positions => {
         let positionNameMap = {}
@@ -1251,6 +1337,30 @@ connection.sync({ force: true }).then(() => {
             bodyUniqueId: 'senate',
             date: '2017-10-23',
             location: 'Shelnutt Gallery (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-10-30',
+            location: 'Shelnutt Gallery (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-11-06',
+            location: 'Shelnutt Gallery (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-11-13',
+            location: 'Shelnutt Gallery (RU 3606)'
+        },
+        {
+            sessionUniqueId: '48',
+            bodyUniqueId: 'senate',
+            date: '2017-11-20',
+            location: 'Shelnutt Gallery (RU 3606)'
         }
     ]))
 
@@ -1260,38 +1370,13 @@ connection.sync({ force: true }).then(() => {
     }).then(response => {
         let actions = []
 
-        const membershipIdMappings = {
-          "Ellie Mees": 10,
-          "Hannah Merrow": 11,
-          "Steve Sperazza": 12,
-          "Varun Rao": 13,
-          "Nancy Bush": 18,
-          "Kinsley Rowan": 19,
-          "Mary Clare Crochiere": 20,
-          "Steve Duduch": 21,
-          "Chris Duffy": 22,
-          "Lily Wang": 23,
-          "Joshua Thomas": 24,
-          "Meagan Lettko": 25,
-          "Jennie Miller": 30,
-          "Sean Ferracioli": 37,
-          "Tianyi Qiao": 38,
-          "Stefanie Warner": 39,
-          "Kinshuk Panda": 40,
-          "Stephanie Jennings": 41,
-          "Anthony Bishop": 42,
-          "Anthony Ashley": 43,
-          "Michael Gardner": 44,
-          "Jordan Angel": 45
-        }
-
         const subbodyIdMappings = {
             'Academic Affairs Committee': 'aac',
             'Community Relations Committee': 'crc',
             'Facilities and Services Committee': 'fsc',
             'Hospitality Services Advisory Committee': 'hsac',
             'Internal Reforms Committee': 'irc',
-            'Rules & Elections Committee': 'rne',
+            'Rules and Elections Committee': 'rne',
             'Student Life Committee': 'slc',
             'Student Government Communications Committee': 'sgcc',
             'Union Annual Report Committee': 'uar',
@@ -1315,15 +1400,15 @@ connection.sync({ force: true }).then(() => {
 
                 if(membershipIdMappings[entry["gsx$movedby"]["$t"]]) {
                     a.movingMemberId = membershipIdMappings[entry["gsx$movedby"]["$t"]]
+
+                    if(membershipIdMappings[entry["gsx$secondedby"]["$t"]]) {
+                        a.secondingMemberId = membershipIdMappings[entry["gsx$secondedby"]["$t"]]
+                    }
                 } else if(subbodyIdMappings[entry["gsx$movedby"]["$t"]]) {
                     a.movingSubbodyUniqueId = subbodyIdMappings[entry["gsx$movedby"]["$t"]]
+                } else {
+                    a.movingOtherEntity = entry["gsx$movedby"]["$t"]
                 }
-
-                if(membershipIdMappings[entry["gsx$secondedby"]["$t"]]) {
-                    a.secondingMemberId = membershipIdMappings[entry["gsx$secondedby"]["$t"]]
-                }
-
-
 
                 actions.push(a)
             }
