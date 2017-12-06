@@ -2,6 +2,8 @@
 
 const Sequelize = require('sequelize')
 const moment = require('moment')
+const showdown = require('showdown')
+const converter = new showdown.Converter()
 
 module.exports = (connection, DataTypes) => {
     let Meeting = connection.define('meeting', {
@@ -33,6 +35,19 @@ module.exports = (connection, DataTypes) => {
         location: {
             type: DataTypes.STRING,
             required: true
+        },
+        minutesText: {
+            type: DataTypes.TEXT,
+            required: true,
+            defaultValue: ""
+        },
+        minutesHtml: {
+            type: DataTypes.VIRTUAL(DataTypes.STRING, [
+                'minutesText'
+            ]),
+            get() {
+                return converter.makeHtml(this.get('minutesText') || '')
+            }
         }
     })
 
@@ -46,6 +61,8 @@ module.exports = (connection, DataTypes) => {
             targetKey: 'bodyUniqueId',
             foreignKey: 'bodyUniqueId'
         })
+
+        Meeting.belongsTo(models['membership'], { as: 'recordingMember' })
     }
 
     Meeting.queryIncludes = (connection) => {
