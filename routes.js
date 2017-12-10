@@ -15,8 +15,6 @@ module.exports = connection => {
         const model = connection.model(name)
         const tName = model.getTableName()
 
-        console.log(tName, model.primaryKeyAttributes)
-
         let templateUrl = ''
         for(const k of model.primaryKeyAttributes) {
             templateUrl += `/:${k}`
