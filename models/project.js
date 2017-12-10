@@ -70,7 +70,18 @@ module.exports = (connection, DataTypes) => {
             }
         }, {
             model: connection.model('person'),
+            required: false,
             as: 'contactPerson'
+        }, {
+            model: connection.model('subbody'),
+            required: false,
+            where: {
+                $and: {
+                    uniqueId: { $eq: { $col: 'project.subbodyUniqueId' } },
+                    sessionUniqueId: { $eq: { $col: 'project.sessionUniqueId' } },
+                    bodyUniqueId: { $eq: { $col: 'project.bodyUniqueId' } }
+                }
+            }
         }]
     }
 
