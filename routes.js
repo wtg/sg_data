@@ -6,7 +6,9 @@ const jwt = require('jsonwebtoken')
 
 function authorizationMiddleware (req, res, context) {
     return new Promise(function(resolve) {
-        if(!!req.header('Authorization')) {
+        if(req.method === 'GET') {
+            resolve(context.continue)
+        } else if(!!req.header('Authorization')) {
             const token = req.header('Authorization').split('Bearer ').pop()
             try {
                 const decoded = jwt.verify(token, process.env.AUTH_SECRET)
@@ -21,8 +23,6 @@ function authorizationMiddleware (req, res, context) {
                 res.status(401).send({ message: "Invalid authorization token" })
                 resolve(context.stop)
             }
-        } else if(req.method === 'GET') {
-            resolve(context.continue)
         } else {
             res.status(401).send({ message: "Unauthorized" })
             resolve(context.stop)
