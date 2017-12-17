@@ -2,6 +2,33 @@
 
 const epilogue = require('epilogue')
 const express = require('express')
+const jwt = require('jsonwebtoken')
+
+function authorizationMiddleware (req, res, context) {
+    return new Promise(function(resolve) {
+        if(!!req.header('Authorization')) {
+            const token = req.header('Authorization').split('Bearer ').pop()
+            try {
+                const decoded = jwt.verify(token, process.env.AUTH_SECRET)
+
+                if(decoded.rcsId) {
+                    resolve(context.continue)
+                } else {
+                    res.status(401).send({ message: "Unauthenticated" })
+                    resolve(context.stop)
+                }
+            } catch (e) {
+                res.status(401).send({ message: "Invalid authorization token" })
+                resolve(context.stop)
+            }
+        } else if(req.method === 'GET') {
+            resolve(context.continue)
+        } else {
+            res.status(401).send({ message: "Unauthorized" })
+            resolve(context.stop)
+        }
+    })
+}
 
 module.exports = connection => {
     let router = express.Router()
@@ -37,6 +64,8 @@ module.exports = connection => {
         }
 
         let resource = epilogue.resource(configuration)
+
+        resource.all.auth(authorizationMiddleware)
 
         if('milestones' in model) {
             resource.use(model.milestones)
