@@ -1,30 +1,23 @@
 'use strict'
 
-const Sequelize = require('sequelize');
+const Sequelize = require('sequelize')
+const _ = require('lodash')
 const showdown = require('showdown')
 const converter = new showdown.Converter()
 
 module.exports = (connection, DataTypes) => {
-    let Update = connection.define('update', {
-        sessionUniqueId: {
-            type: DataTypes.STRING,
-            required: true
-        },
+    const Bylaws = connection.define('bylaws', {
         bodyUniqueId: {
             type: DataTypes.STRING,
             required: true
         },
-        title: {
+        sessionUniqueId: {
             type: DataTypes.STRING,
             required: true
         },
-        image: {
-            type: DataTypes.BLOB,
-            required: false
-        },
         text: {
             type: DataTypes.TEXT,
-            defaultValue: ''
+            required: true
         },
         textHtml: {
             type: DataTypes.VIRTUAL(DataTypes.STRING, [
@@ -34,38 +27,39 @@ module.exports = (connection, DataTypes) => {
                 return converter.makeHtml(this.get('text') || '')
             }
         },
-        displayContact: {
-            type: DataTypes.BOOLEAN,
-            defaultValue: true
+        date: {
+            type: DataTypes.DATEONLY
+        },
+        draft: {
+            type: DataTypes.BOOLEAN
         }
     })
 
-    Update.associate = models => {
-        Update.belongsTo(models['session'], {
+    Bylaws.associate = models => {
+        Bylaws.belongsTo(models['session'], {
             targetKey: 'uniqueId',
             foreignKey: 'sessionUniqueId'
         })
-        Update.belongsTo(models['session'], {
+
+        Bylaws.belongsTo(models['session'], {
             targetKey: 'bodyUniqueId',
             foreignKey: 'bodyUniqueId'
         })
-        Update.belongsTo(models['person'], { as: 'contact' })
     }
 
-    Update.queryIncludes = (connection) => {
+    Bylaws.queryIncludes = (connection) => {
         return [
             {
                 model: connection.model('session'),
                 where: {
                     $and: {
-                        uniqueId: { $eq: Sequelize.col('update.sessionUniqueId') },
-                        bodyUniqueId: { $eq: Sequelize.col('update.bodyUniqueId') }
+                        uniqueId: { $eq: Sequelize.col('bylaws.sessionUniqueId') },
+                        bodyUniqueId: { $eq: Sequelize.col('bylaws.bodyUniqueId') }
                     }
                 }
-            },
-            { model: connection.model('person'), as: 'contact' }
+            }
         ]
     }
 
-    return Update
+    return Bylaws
 }
