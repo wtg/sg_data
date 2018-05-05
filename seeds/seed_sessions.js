@@ -7,7 +7,6 @@ connection.sync().then(() => {
     let promises = []
 
     connection.model('session').bulkCreate([
-        { name: '45th Student Senate', bodyUniqueId: 'senate', uniqueId: '45', active: false },
         { name: '44th Student Senate', bodyUniqueId: 'senate', uniqueId: '44', active: false },
         { name: '43rd Student Senate', bodyUniqueId: 'senate', uniqueId: '43', active: false },
         { name: '42nd Student Senate', bodyUniqueId: 'senate', uniqueId: '42', active: false },
