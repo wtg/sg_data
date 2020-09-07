@@ -28,7 +28,7 @@ The app should look like this:
 ![sg_data](https://user-images.githubusercontent.com/43757314/90216070-8fddd180-ddcb-11ea-961d-a23a9f3a9dc3.PNG)
 
 
-## Installation (Mac)
+## Installation (macOS)
 
 1. Clone the repository and make note of the repo's location.
 2. If it is not installed already, install [Node.js](https://nodejs.org/en/) onto your machine.
