@@ -32,62 +32,7 @@ connection.sync({ force: true }).then(() => {
         }
     ])
 
-    .then(() => connection.model('session').bulkCreate([
-        {
-            name: '48th Student Senate',
-            bodyUniqueId: 'senate',
-            uniqueId: '48',
-            active: true
-        },
-        {
-            name: '47th Student Senate',
-            bodyUniqueId: 'senate',
-            uniqueId: '47',
-            active: false
-        },
-        {
-            name: '46th Student Senate',
-            bodyUniqueId: 'senate',
-            uniqueId: '46',
-            active: false
-        },
-        {
-            name: '45th Student Senate',
-            bodyUniqueId: 'senate',
-            uniqueId: '45',
-            active: false
-        },
-        {
-            name: '44th Student Senate',
-            bodyUniqueId: 'senate',
-            uniqueId: '44',
-            active: false
-        },
-        {
-            name: '2017-18 Executive Board',
-            bodyUniqueId: 'eboard',
-            uniqueId: '17-18',
-            active: true
-        },
-        {
-            name: '2017-18 Judicial Board',
-            bodyUniqueId: 'jboard',
-            uniqueId: '17-18',
-            active: true
-        },
-        {
-            name: '2017-18 Undergraduate Council',
-            bodyUniqueId: 'uc',
-            uniqueId: '17-18',
-            active: true
-        },
-        {
-            name: '2017-18 Graduate Council',
-            bodyUniqueId: 'gc',
-            uniqueId: '17-18',
-            active: true
-        }
-    ]))
+    .then(() => require('./seeds/seed_sessions')(connection))
 
     .then(() => connection.model('person').bulkCreate([
         {
@@ -304,6 +249,10 @@ connection.sync({ force: true }).then(() => {
         {
             rcsId: 'lazere',
             name: 'Evan Lazaro'
+        },
+        {
+            rcsId: 'kennec7',
+            name: 'Caitlin Kennedy'
         }
     ]))
     .then(people => {
@@ -315,6 +264,13 @@ connection.sync({ force: true }).then(() => {
             {
                 name: 'Grand Marshal',
                 bodyUniqueId: 'senate',
+                voting: false,
+                officer: true,
+                presidingOfficer: true
+            },
+            {
+                name: 'President of the Union',
+                bodyUniqueId: 'eboard',
                 voting: false,
                 officer: true,
                 presidingOfficer: true
@@ -446,13 +402,6 @@ connection.sync({ force: true }).then(() => {
                 officer: true
             },
             {
-                name: 'President of the Union',
-                bodyUniqueId: 'eboard',
-                voting: false,
-                officer: true,
-                presidingOfficer: true
-            },
-            {
                 name: 'Judicial Board Chairperson',
                 bodyUniqueId: 'jboard',
                 voting: false,
@@ -486,7 +435,7 @@ connection.sync({ force: true }).then(() => {
                 officer: true
             },
             {
-                name: 'Rules and Elections Committee Chairperson',
+                name: 'Elections Commission Chairperson',
                 bodyUniqueId: 'senate',
                 voting: false,
                 officer: true
@@ -554,6 +503,9 @@ connection.sync({ force: true }).then(() => {
         ])
     })
 
+    .then(() => require('./seeds/seed_gm')(connection))
+    .then(() => require('./seeds/seed_pu')(connection))
+
     .then(() => connection.model('position').findAll())
 
     .then(positions => {
@@ -566,26 +518,10 @@ connection.sync({ force: true }).then(() => {
 
         let memberships = [
             {
-                personRcsId: 'etzinj',
-                name: '152nd Grand Marshal',
-                tempPositionName: 'Grand Marshal',
-                startDate: '2017-04-07',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate'
-            },
-            {
-                personRcsId: 'ilorip',
-                name: '151st Grand Marshal',
-                tempPositionName: 'Grand Marshal',
-                startDate: '2016-04-15',
-                endDate: '2017-04-07',
-                sessionUniqueId: '47',
-                bodyUniqueId: 'senate'
-            },
-            {
                 personRcsId: 'warnes3',
                 name: 'Student Government Communications Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -593,6 +529,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'merroh',
                 name: 'Student Life Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -600,6 +537,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'gabbis',
                 name: 'Academic Affairs Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -607,6 +545,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'bushn',
                 name: 'Facilities and Services Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -614,6 +553,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'gardnm4',
                 name: 'Community Relations Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -621,6 +561,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'venusj2',
                 name: 'Senate-Executive Board Liaison',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -628,6 +569,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'speras',
                 name: 'Internal Reforms Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -635,6 +577,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'meese',
                 name: 'Class of 2018 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -642,6 +585,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'merroh',
                 name: 'Class of 2018 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -649,6 +593,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'speras',
                 name: 'Class of 2018 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -696,6 +641,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'bushn',
                 name: 'Class of 2019 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -703,6 +649,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'rowank',
                 name: 'Class of 2019 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -710,6 +657,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'crochm',
                 name: 'Class of 2019 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -717,6 +665,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'duducs',
                 name: 'Class of 2019 Senator',
                 startDate: '2017-09-08',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -732,6 +681,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'duffyc2',
                 name: 'Class of 2020 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -739,6 +689,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'wangl17',
                 name: 'Class of 2020 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -746,6 +697,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'thomaj14',
                 name: 'Class of 2020 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -753,6 +705,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'lettkm',
                 name: 'Class of 2020 Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -760,6 +713,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'baoj2',
                 name: 'Class of 2021 Senator',
                 startDate: '2017-08-06',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -767,6 +721,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'mathem2',
                 name: 'Class of 2021 Senator',
                 startDate: '2017-08-06',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -774,6 +729,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'hilln2',
                 name: 'Class of 2021 Senator',
                 startDate: '2017-08-06',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -781,6 +737,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'naraya5',
                 name: 'Class of 2021 Senator',
                 startDate: '2017-08-06',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -788,6 +745,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'millej19',
                 name: 'Greek Senator (Panhellenic)',
                 startDate: '2017-04-07',
+                endDate: '2017-12-31',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -811,6 +769,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'meese',
                 name: 'Vice Chairperson of the Senate',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -890,6 +849,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'kochms',
                 name: 'Web Technologies Group Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -897,6 +857,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'ferras4',
                 name: 'Greek Senator (IFC)',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -904,6 +865,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'qiaot',
                 name: 'Independent Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -911,6 +873,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'warnes3',
                 name: 'Independent Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -918,6 +881,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'pandak',
                 name: 'Graduate Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -925,6 +889,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'jennis4',
                 name: 'Graduate Senator',
                 startDate: '2017-04-07',
+                endDate: '2017-09-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -932,6 +897,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'bishoa3',
                 name: 'Graduate Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -939,6 +905,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'ashlea',
                 name: 'Graduate Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -946,6 +913,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'gardnm4',
                 name: 'Graduate Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -953,6 +921,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'angelj2',
                 name: 'Graduate Senator',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -960,6 +929,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'wangt9',
                 name: 'Secretary',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -967,6 +937,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'millej19',
                 name: 'Parliamentarian',
                 startDate: '2017-04-07',
+                endDate: '2017-12-31',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -974,6 +945,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'pollen',
                 name: 'Treasurer',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -982,6 +954,7 @@ connection.sync({ force: true }).then(() => {
                 name: '128th President of the Union',
                 tempPositionName: 'President of the Union',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'eboard'
             },
@@ -989,6 +962,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'jamesn2',
                 name: 'Judicial Board Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'jboard'
             },
@@ -996,6 +970,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'cinnak',
                 name: 'Undergraduate President',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'uc'
             },
@@ -1003,6 +978,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'scotts',
                 name: 'Graduate Council President',
                 startDate: '2017-04-07',
+                endDate: '2017-12-31',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'gc'
             },
@@ -1011,6 +987,7 @@ connection.sync({ force: true }).then(() => {
                 name: 'Human Resources Interview Committee Interim Chairperson',
                 tempPositionName: 'Human Resources Interview Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -1018,13 +995,15 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'freedj2',
                 name: 'Hospitality Services Advisory Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
             {
                 personRcsId: 'carawc',
-                name: 'Rules and Elections Committee Chairperson',
+                name: 'Elections Commission Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '48',
                 bodyUniqueId: 'senate'
             },
@@ -1032,6 +1011,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'sunr2',
                 name: 'Union Business Operations Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'eboard'
             },
@@ -1039,6 +1019,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'lanee',
                 name: 'Union Club Operations Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'eboard'
             },
@@ -1046,6 +1027,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'etemai',
                 name: 'Union Marketing, Advertising, and Publicity Committee Chairperson',
                 startDate: '2017-09-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'eboard'
             },
@@ -1053,6 +1035,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'choina',
                 name: 'Union Policies Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'eboard'
             },
@@ -1060,6 +1043,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'pencil',
                 name: 'Union Programming and Activities Committee Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'eboard'
             },
@@ -1067,6 +1051,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'bermaj',
                 name: 'Student Motor Vehicle Court Chairperson',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'jboard'
             },
@@ -1074,6 +1059,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'bucklb',
                 name: 'Class of 2018 President',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'uc'
             },
@@ -1081,6 +1067,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'babuv',
                 name: 'Class of 2019 President',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'uc'
             },
@@ -1088,6 +1075,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'lyonsj7',
                 name: 'Class of 2020 President',
                 startDate: '2017-04-07',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'uc'
             },
@@ -1095,6 +1083,7 @@ connection.sync({ force: true }).then(() => {
                 personRcsId: 'lazere',
                 name: 'Class of 2021 President',
                 startDate: '2017-10-02',
+                endDate: '2018-04-01',
                 sessionUniqueId: '17-18',
                 bodyUniqueId: 'uc'
             }
@@ -1128,72 +1117,48 @@ connection.sync({ force: true }).then(() => {
         }
 
         let subbodies = [
-            {
-                uniqueId: 'aac',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Academic Affairs Committee'
-            },
-            {
-                uniqueId: 'crc',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Community Relations Committee'
-            },
-            {
-                uniqueId: 'fsc',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Facilities and Services Committee'
-            },
-            {
-                uniqueId: 'hsac',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Hospitality Services Advisory Committee'
-            },
-            {
-                uniqueId: 'hri',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Human Resources Interview Committee'
-            },
-            {
-                uniqueId: 'irc',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Internal Reforms Committee'
-            },
-            {
-                uniqueId: 'rne',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Rules and Elections Committee'
-            },
-            {
-                uniqueId: 'slc',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Student Life Committee'
-            },
-            {
-                uniqueId: 'sgcc',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Student Government Communications Committee'
-            },
-            {
-                uniqueId: 'uar',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Union Annual Report Committee'
-            },
-            {
-                uniqueId: 'wtg',
-                sessionUniqueId: '48',
-                bodyUniqueId: 'senate',
-                name: 'Web Technologies Group'
-            },
+            { uniqueId: 'aac', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Academic Affairs Committee' },
+            { uniqueId: 'crc', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Community Relations Committee' },
+            { uniqueId: 'fsc', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Facilities and Services Committee' },
+            { uniqueId: 'hsac', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Hospitality Services Advisory Committee' },
+            { uniqueId: 'hri', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Human Resources Interview Committee' },
+            { uniqueId: 'irc', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Internal Reforms Committee' },
+            { uniqueId: 'ec', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Elections Commission' },
+            { uniqueId: 'slc', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Student Life Committee' },
+            { uniqueId: 'sgcc', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Student Government Communications Committee' },
+            { uniqueId: 'uar', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Union Annual Report Committee' },
+            { uniqueId: 'wtg', sessionUniqueId: '48', bodyUniqueId: 'senate', name: 'Web Technologies Group' },
+
+            { uniqueId: 'aac', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Academic Affairs Committee' },
+            { uniqueId: 'crc', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Community Relations Committee' },
+            { uniqueId: 'fsc', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Facilities and Services Committee' },
+            { uniqueId: 'hsac', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Hospitality Services Advisory Committee' },
+            { uniqueId: 'ertf', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Elections Reform Task Force' },
+            { uniqueId: 'ec', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Elections Commission' },
+            { uniqueId: 'slc', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Student Life Committee' },
+            { uniqueId: 'sgcc', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Student Government Communications Committee' },
+            { uniqueId: 'uar', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Union Annual Report Committee' },
+            { uniqueId: 'wtg', sessionUniqueId: '49', bodyUniqueId: 'senate', name: 'Web Technologies Group' },
+
+            { uniqueId: 'aac', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Academic Affairs Committee' },
+            { uniqueId: 'crc', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Community Relations Committee' },
+            { uniqueId: 'fsc', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Facilities and Services Committee' },
+            { uniqueId: 'hsac', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Hospitality Services Advisory Committee' },
+            { uniqueId: 'atf', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Arch Task Force' },
+            { uniqueId: 'ec', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Elections Commission' },
+            { uniqueId: 'slc', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Student Life Committee' },
+            { uniqueId: 'sgcc', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Student Government Communications Committee' },
+            { uniqueId: 'uar', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Union Annual Report Committee' },
+            { uniqueId: 'wtg', sessionUniqueId: '50', bodyUniqueId: 'senate', name: 'Web Technologies Group' },
+
+            { uniqueId: 'aac', sessionUniqueId: '51', bodyUniqueId: 'senate', name: 'Academic Affairs Committee' },
+            { uniqueId: 'fsc', sessionUniqueId: '51', bodyUniqueId: 'senate', name: 'Facilities and Services Committee' },
+            { uniqueId: 'ec', sessionUniqueId: '51', bodyUniqueId: 'senate', name: 'Elections Commission' },
+            { uniqueId: 'slc', sessionUniqueId: '51', bodyUniqueId: 'senate', name: 'Student Life Committee' },
+            { uniqueId: 'sgcc', sessionUniqueId: '51', bodyUniqueId: 'senate', name: 'Student Government Communications Committee' },
+            { uniqueId: 'uar', sessionUniqueId: '51', bodyUniqueId: 'senate', name: 'Union Annual Report Committee' },
+            { uniqueId: 'wtg', sessionUniqueId: '51', bodyUniqueId: 'senate', name: 'Web Technologies Group' },
+
             {
                 uniqueId: 'policies',
                 sessionUniqueId: '17-18',
@@ -1376,7 +1341,7 @@ connection.sync({ force: true }).then(() => {
             'Facilities and Services Committee': 'fsc',
             'Hospitality Services Advisory Committee': 'hsac',
             'Internal Reforms Committee': 'irc',
-            'Rules and Elections Committee': 'rne',
+            'Elections Commission': 'ec',
             'Student Life Committee': 'slc',
             'Student Government Communications Committee': 'sgcc',
             'Union Annual Report Committee': 'uar',
@@ -1418,7 +1383,5 @@ connection.sync({ force: true }).then(() => {
 
         return connection.model('action').bulkCreate(actions)
     })
-
-
-    .then(() => connection.close())
+    .then(() => connection.close());
 })
