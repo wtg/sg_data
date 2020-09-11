@@ -1,0 +1,27 @@
+version: '3.4'
+
+volumes:
+  sg_data_api_node_modules:
+
+services:
+  postgres:
+    container_name: sg_data_postgres
+    image: postgres
+    environment:
+      - POSTGRES_DB=sg_data
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+  api:
+    container_name: sg_data_api
+    build:
+      context: .
+      target: build
+    command: bash -c "npm run seed && npm start"
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@sg_data_postgres:5432/sg_data
+    volumes:
+      - sg_data_api_node_modules:/app/node_modules
+    depends_on:
+      - postgres

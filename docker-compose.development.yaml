@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  postgres:
+    ports:
+      - "5432:5432"
+  api:
+    command: bash -c "npm run seed && nodemon --exec npm start --ignore docs/"
+    build:
+      context: .
+      target: develop
+    volumes:
+      - ./:/app

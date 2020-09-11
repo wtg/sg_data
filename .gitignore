@@ -3,3 +3,4 @@ node_modules
 erd.svg
 npm-debug.log
 docs/
+.nvmrc
