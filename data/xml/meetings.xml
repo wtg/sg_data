@@ -1,0 +1,169 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>1</meetingNum>
+  <date>2017-04-10</date>
+  <location>Ellsworth Room (RU 3602)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <date>2017-04-17</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <date>2017-04-24</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <date>2017-05-01</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>5</meetingNum>
+  <date>2017-09-02</date>
+  <location>Brueggeman Room (CBIS)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>6</meetingNum>
+  <date>2017-09-11</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>7</meetingNum>
+  <date>2017-09-18</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>8</meetingNum>
+  <date>2017-09-25</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>9</meetingNum>
+  <date>2017-10-02</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>10</meetingNum>
+  <date>2017-10-16</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>11</meetingNum>
+  <date>2017-10-23</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>12</meetingNum>
+  <date>2017-10-30</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>13</meetingNum>
+  <date>2017-11-06</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>14</meetingNum>
+  <date>2017-11-13</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>15</meetingNum>
+  <date>2017-11-20</date>
+  <location>Shelnutt Gallery (RU 3606)</location>
+  <minutesText></minutesText>
+  <createdAt>2020-11-18T21:16:45.651+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.651+00:00</updatedAt>
+</row>
+
+</table>
+

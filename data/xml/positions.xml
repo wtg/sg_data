@@ -1,0 +1,433 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <id>1</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Grand Marshal</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>true</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>2</id>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <name>President of the Union</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>true</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>3</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Vice Chairperson of the Senate</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>4</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Student Government Communications Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>5</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Student Life Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>6</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Academic Affairs Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>7</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Facilities and Services Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>8</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Community Relations Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>9</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Senate-Executive Board Liaison</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>10</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Internal Reforms Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>11</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Parliamentarian</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>12</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Treasurer</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>13</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Secretary</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>14</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Class of 2017 Senator</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>15</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Class of 2018 Senator</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>16</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Class of 2019 Senator</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>17</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Class of 2020 Senator</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>18</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Class of 2021 Senator</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>19</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Greek Senator (Panhellenic)</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>20</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Greek Senator (IFC)</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>21</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Independent Senator</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>22</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Graduate Senator</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>23</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Web Technologies Group Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>24</id>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <name>Judicial Board Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>true</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>25</id>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <name>Undergraduate President</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>true</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>26</id>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <name>Graduate Council President</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>true</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>27</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Human Resources Interview Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>28</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Hospitality Services Advisory Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>29</id>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <name>Elections Commission Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>30</id>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <name>Union Business Operations Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>31</id>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <name>Union Club Operations Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>32</id>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <name>Union Marketing, Advertising, and Publicity Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>33</id>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <name>Union Policies Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>34</id>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <name>Union Programming and Activities Committee Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>35</id>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <name>Student Motor Vehicle Court Chairperson</name>
+  <voting>false</voting>
+  <officer>true</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>36</id>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <name>Class of 2018 President</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>37</id>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <name>Class of 2019 President</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>38</id>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <name>Class of 2020 President</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+<row>
+  <id>39</id>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <name>Class of 2021 President</name>
+  <voting>true</voting>
+  <officer>false</officer>
+  <presidingOfficer>false</presidingOfficer>
+  <createdAt>2020-11-18T21:16:44.795+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.795+00:00</updatedAt>
+</row>
+
+</table>
+

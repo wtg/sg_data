@@ -1,0 +1,1427 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>1</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Confirmation of Interim Officer Appointments</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To confirm the Grand Marshal’s interim appointments of:
+    1. Jennie Miller '19 as Interim Parliamentarian;
+    2. David Raab '19 as Interim Rules and Elections Chair;
+    3. Varun Rao '18 as Interim Academic Affairs Chair;
+    4. Austin Miller '17 as Interim Facilities and Services Chair;
+    5. Ellie Mees '18 as Interim Student Life Chair;
+    6. Ellie Mees '18 as Interim Student Government Communications Chair;
+    7. Leo Gallo '19 as Interim Community Relations Chair; and
+    8. Sidney Kochman ’19 as Interim Web Technologies Chair.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>195</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>1</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Internal Reforms Committee Formation</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To establish the Internal Reforms Committee as a standing committee of the Student Senate.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>195</movingMemberId>
+  <secondingMemberId>182</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Confirmation of Rules and Elections Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Caleb Caraway as chairperson of the Rules and Elections Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>215</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Approval of Special Election Handbook</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Special Elections Handbook as proposed and presented by the Rules and Elections Committee.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingOtherEntity>Rules and Elections Committee</movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>3</actionNum>
+  <description>Confirmation of Vice-Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Ellie Mees as Vice-Chairperson of the Student Senate, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>215</movingMemberId>
+  <secondingMemberId>217</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>4</actionNum>
+  <description>Confirmation of Treasurer Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Nino Polletta as Treasurer, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>210</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>5</actionNum>
+  <description>Confirmation of Secretary Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Tim Wang as Secretary, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>216</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>6</actionNum>
+  <description>Confirmation of Parliamentarian Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Jennie Miller as Parliamentarian, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>210</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>7</actionNum>
+  <description>Confirmation of Academic Affairs Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Sairisheel Gabbireddy as chairperson of the Academic Affairs Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>11</votesFor>
+  <votesAgainst>7</votesAgainst>
+  <abstentions>2</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>210</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>8</actionNum>
+  <description>Confirmation of Community Relations Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Michael Gardner as chairperson of the Community Relations Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>9</actionNum>
+  <description>Confirmation of Facilities and Services Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Nancy Bush as chairperson of the Facilities and Services Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>10</actionNum>
+  <description>Confirmation of Internal Reforms Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Steven Sperazza as chairperson of the Internal Reforms Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>195</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>11</actionNum>
+  <description>Confirmation of Student Government Communications Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Stefanie Warner as chairperson of the Student Government Communications Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>12</actionNum>
+  <description>Confirmation of Student Life Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Hannah Merrow as chairperson of the Student Life Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>195</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>2</meetingNum>
+  <actionNum>13</actionNum>
+  <description>Confirmation of Web Technologies Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Sidney Kochman as chairperson of the Web Technologies Group, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>217</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Confirmation of Senate-Executive Board Liaison Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Joseph Venusto as the Senate-Executive Board Liaison, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Confirmation of Executive Board Class of 2018 Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Erica Lane as the Class of 2018 Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>3</actionNum>
+  <description>Confirmation of Executive Board Class of 2019 Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of David Raab as the Class of 2019 Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>4</actionNum>
+  <description>Confirmation of Executive Board Class of 2020 Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Anissa Choiniere as the Class of 2020 Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>5</actionNum>
+  <description>Confirmation of Executive Board Graduate Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of CJ Markum as the Graduate Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>1</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>6</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Rasika Ekhalikar as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>7</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Ida Etemadi as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>8</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Kay Sun as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>9</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Ciera Williams as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>10</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Majken Rasmussen as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>11</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Brookelyn Parslow as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>12</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Ananya Murali as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>13</actionNum>
+  <description>Confirmation of Executive Board Member-at-Large Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Caitlin Kennedy as a Member-at-Large Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>14</actionNum>
+  <description>Confirmation of Executive Board Member-at-Large Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Caroline Ringel as a Member-at-Large Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>15</actionNum>
+  <description>Confirmation of Executive Board Member-at-Large Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Jared Segal as a Member-at-Large Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>3</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>3</meetingNum>
+  <actionNum>16</actionNum>
+  <description>Confirmation of Executive Board Member-at-Large Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Brian Mansaku as a Member-at-Large Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>16</votesFor>
+  <votesAgainst>2</votesAgainst>
+  <abstentions>3</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Endorsement of Cyber-Citizenship Policy Revisions</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To endorse the *Cyber-Citizenship Policy* revisions, as proposed in May 2017 and presented by the Division of the Chief Information Officer.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Approval of the revised Counseling Center Recommendations Report</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To nullify the approval of the Counseling Center Survey Results &amp; Areas for Recommendation report as passed by the 47th Student Senate on March 27, 2017, and
+2. To approve the Counseling Center Survey Results &amp; Areas for Recommendation report as revised and presented by the Student Life Committee.</text>
+  <status>Postponed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>178</movingMemberId>
+  <secondingMemberId>175</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>3</actionNum>
+  <description>Confirmation of Judicial Board Regular Member Appointment: Harrison Leinweber</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Harrison Leinweber as a Regular Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>16</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>4</actionNum>
+  <description>Confirmation of Judicial Board Regular Member Appointment: Adam Rabinowitz</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Adam Rabinowitz as a Regular Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>5</actionNum>
+  <description>Confirmation of Judicial Board Regular Member Appointment: Patrick Connerney</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Patrick Connerney as a Regular Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>6</actionNum>
+  <description>Confirmation of Judicial Board Regular Member Appointment: Vanessa Costa</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Vanessa Costa as a Regular Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>7</actionNum>
+  <description>Confirmation of Judicial Board Alternate Member Appointment: Philip Charles</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Philip Charles as an Alternate Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>8</actionNum>
+  <description>Confirmation of Judicial Board Alternate Member Appointment: Lucas Davis</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Lucas Davis as an Alternate Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>16</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>2</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>9</actionNum>
+  <description>Confirmation of Judicial Board Alternate Member Appointment: Shawn Vollaro</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Shawn Vollaro as an Alternate Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>195</movingMemberId>
+  <secondingMemberId>174</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>10</actionNum>
+  <description>Confirmation of Judicial Board Alternate Member Appointment: Aaron Shapiro</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Chairman of the Judicial Board's appointment of Aaron Shapiro as an Alternate Member of the Judicial Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>195</movingMemberId>
+  <secondingMemberId>174</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>11</actionNum>
+  <description>Confirmation of Hospitality Services Advisory Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's appointment of Jenna Freedberg as chairperson of the Hospitality Services Advisory Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>15</votesFor>
+  <votesAgainst>1</votesAgainst>
+  <abstentions>2</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>195</movingMemberId>
+  <secondingMemberId>174</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>12</actionNum>
+  <description>Summer Meeting Bylaws Amendment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the following amendments to the specified Articles and Sections to the *Bylaws of the Student Senate*, as suggested by the Internal Reforms Committee:
+    1. **Article 5, Section 1:** “The Student Senate shall meet at least twice a month during the fall and spring semesters. The time and location of these meetings shall be at the discretion of the Grand Marshal.”</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingSubbodyUniqueId>irc</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>4</meetingNum>
+  <actionNum>13</actionNum>
+  <description>Sustainability Resolution</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To recognize the following as a stance of the student body on the topic of sustainability practices on campus: “The student body is an integral part of promoting change on campus and will be the key to successfully implementing sustainability programs. Students will foster an environment within the student body that encourages many levels of student input, participation, and enthusiasm towards sustainability projects,” and
+2. To commit to promoting sustainable practices within the Union’s facilities, and to encourage the organizations and businesses within its jurisdiction to participate in campus sustainability efforts.</text>
+  <status>Passed</status>
+  <votesFor>17</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <movingSubbodyUniqueId>fsc</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>5</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Class of 2021 Freshmen Elections Handbook Confirmation &amp; Enactment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To confirm and enact the *Class of 2021 Freshmen Elections Handbook*, as approved and attached by the Rules and Elections Committee, and
+2. To advice the Rules and Elections Committee to edit out "political parties" and submit these changes to the next general meeting of the 48th Student Senate.</text>
+  <status>Passed</status>
+  <votesFor>16</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingOtherEntity>Rules and Elections Committee</movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>5</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Advisory Committee on Campus Security</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To recognize the requirement outlined in the *New York State Education Law*, Article 129-A §6431, for an advisory committee on campus security, where "one-third of the committee shall be appointed from a list of students that contains at least twice the number to be appointed which is provided by the largest student governance organization on such campus,"
+2. To confirm the following list of students appointed by the Grand Marshal as the list required for this committee:
+    1. Ciera Williams '18,
+    2. Tnbit Demoz '19,
+    3. Zining Liang '19,
+    4. Charisse Stakutis '20,
+    5. Harrison Leinweber '18, and
+    6. Adeel Minhas '18, and
+3. To submit the list outlined above to the President of the Institute, the Vice President for Administration, and the Director of Public Safety.</text>
+  <status>Passed</status>
+  <votesFor>16</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>175</movingMemberId>
+  <secondingMemberId>174</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>6</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Rules and Elections Vacancy Appointment Amendment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To amend the Bylaws of the Student Senate by striking “the chair shall have the option of appointing a member-at-large.” from Article 9, Section 7, Item (a), Subitem (ii) and inserting in place “the chair shall appoint a member within two weeks of the body’s failure to do so matching the eligibility criteria of the group normally responsible for making the appointment, to be confirmed by majority vote of the Senate.”</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>195</movingMemberId>
+  <secondingMemberId>182</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>6</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Counseling Center Survey Results &amp; Areas for Recommendation Report </description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To nullify the approval of the *Counseling Center Survey Results &amp; Areas for Recommendation* report as passed by the 47th Student Senate on March 27, 2017, and
+2. To approve the *Counseling Center Survey Results &amp; Areas for Recommendation* report as revised and presented by the Student Life Committee.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingSubbodyUniqueId>slc</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>6</meetingNum>
+  <actionNum>3</actionNum>
+  <description>Sysadmins–WebTech Infrastructure Agreement</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To confirm and enact the *Sysadmins–WebTech Infrastructure Agreement* as approved and attached by the Web Technologies Group.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingSubbodyUniqueId>wtg</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>7</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Endorsement of "Bring The Flying Chicken to Campus" Petition</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To recognize the petition “Bring The Flying Chicken to Campus” by charging Senator Nancy Bush ‘19 with further investigation, and
+2. To recommend that Senator Bush collaborate with the Union Business Operations Committee and the Hospitality Services Advisory Committee when investigating.</text>
+  <status>Passed</status>
+  <votesFor>16</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>4</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>175</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>7</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Establishment of Human Resources Interview Committee</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To establish the Human Resources Interview Committee as a joint committee of the Student Senate and the Executive Board.</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>1</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>178</movingMemberId>
+  <secondingMemberId>174</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>8</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Confirmation of Executive Board Class of 2021 Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Andrew Waltzer as the Class of 2021 Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>195</movingMemberId>
+  <secondingMemberId>182</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>8</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Confirmation of Executive Board Member-at-Large Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the President of the Union's appointment of Christopher Maria as a Member-at-Large Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>175</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>8</meetingNum>
+  <actionNum>3</actionNum>
+  <description>Confirmation of Interim Human Resources Interview Chairperson Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the Grand Marshal's interim appointment of Michael Cuozzo as the interim chairperson of the Human Resources Interview Committee, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>182</movingMemberId>
+  <secondingMemberId>175</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>9</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Union Constitution Integrity Resolution</description>
+  <text>WHEREAS the Executive Committee of the Rensselaer Polytechnic Institute Board of Trustees released a resolution on September 27, 2017 (“Resolution”), which outlined four confirmatory declarations;
+
+WHEREAS declaration 1 of the Resolution ruled that all provisions of the *Rensselaer Union Constitution* “that conflict with *the Bylaws of the Institute* are deemed unapproved by the Board and are superseded by *the Bylaws* to the extent they so conflict;”
+
+WHEREAS declaration 3 of the Resolution requested that the governing body of the Rensselaer Union “take appropriate action to ensure the *Rensselaer Union Constitution*, and any other documents governing the affairs of the Rensselaer Union, are brought into conformance with the declarations of [the] Resolution;”
+
+WHEREAS, in full cooperation with declaration 3 of the Resolution, the Grand Marshal and members of the Student Senate conducted a comprehensive review of the *Rensselaer Union Constitution* (“*Constitution*”);
+
+WHEREAS the *Constitution*, a subsidiary document to *the Bylaws of Rensselaer Polytechnic Institute* (“*the Bylaws of the Institute*”) and a grant of authority by the Board of Trustees, does not contain any provisions that conflict with *the Bylaws of the Institute*;
+
+WHEREAS all other documents and policies governing affairs of the Rensselaer Union are subsidiary documents to the *Constitution* and do not contain any provisions that conflict with the *Constitution* and, by extension,  *the Bylaws of the Institute*;
+
+WHEREAS the Board of Trustees last reviewed the *Union Constitution* following the events of March 2016 and determined that no changes were necessary;
+
+WHEREAS the *Constitution* states the Executive Board “shall approve the hiring and continuance of all administrative personnel of the Union,” but does not state superintendence over hiring; and
+
+WHEREAS, prior to the release of the Resolution, letters from administrators from the Division of Student Life indicated the importance of an approval vote by the Executive Board as part of the hiring process for a Director of the Union;
+
+The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To reaffirm understanding that the *Rensselaer Union Constitution* receives all authority from the Board of Trustees,
+2. To conclude that, upon review, the *Constitution*, as amended April 16, 2015, is in full conformance with the declarations of the Resolution,
+3. To conclude that no provisions of the *Constitution* conflict with *the Bylaws of the Institute* and that, therefore, the document remains approved and in full effect,
+4. To reaffirm the Executive Board’s involvement in the approval process for the hiring of a candidate for the Director of the Union position, as specified in Article VII, Section 2, Item (f) of the *Constitution*, where a candidate cannot be hired without the successful completion of the approval process,
+5. To affirm the ultimate authority of the President in deciding the employment of the Director of the Union, and
+6. To confirm the integrity of the Rensselaer Union’s status as a student-run Union, including all responsibilities granted to the student body by the *Constitution*, within the jurisdiction of *the Bylaws of the Institute* and all policies of the Board of Trustees.</text>
+  <status>Passed</status>
+  <votesFor>17</votesFor>
+  <votesAgainst>5</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingOtherEntity></movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>9</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Union Town Hall Meeting</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To schedule a Town Hall Meeting before or during the week of October 9th in order to inform constituents of the recent events involving the Rensselaer Student Union.
+
+*The Rensselaer Union 48th Student Senate tasks this to the Vice Chairperson of the Senate, along with 5 volunteers of her choosing, for implementation with the full authority to act. The Vice Chairperson of the Senate is expected to report back on any findings or actions at the next General Meeting of the 48th Student Senate.*</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>189</movingMemberId>
+  <secondingMemberId>188</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>10</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Endorsement of Student Handbook Revisions</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To endorse the revisions to the *Rensselaer Handbook of Student Rights and Responsibilities*, as presented by the Division of Student Life on September 25, 2017.
+
+*The Rensselaer Union 48th Student Senate tasks this to the Chairperson of the Student Life Committee and the Grand Marshal with the full authority to act. The Chairperson of the Student Life Committee and the Grand Marshal are expected to report back on any findings or actions to the 48th Student Senate.*</text>
+  <status>Passed</status>
+  <votesFor>19</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>195</movingMemberId>
+  <secondingMemberId>182</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>10</meetingNum>
+  <actionNum>2</actionNum>
+  <description>UC Bylaws Amendment Approval</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve and enact the amendment of *the Bylaws of the Undergraduate Council*, which appends to Article XIV: Class Appointments, Section 2: Presidential Successions, item (b) the following: 
+“After two separate meetings with inconclusive voting, a new Vice President may be appointed from among the Class's membership, regardless of voting membership status on the Council.“</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <movingOtherEntity>Undergraduate Council</movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>11</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Executive Board Bylaws Amendment Approval</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+1. To approve the following amendments to the *Bylaws of the Rensselaer Union Executive Board*:
+    1. Inserting a new section after Article VII, Section 1, that reads, “The Chair of each joint Senate and Executive Board Committee shall be jointly nominated by the Grand Marshal and the President of the Union and confirmed by a majority vote by the Senate and the Executive Board.”
+    2. Inserting a new section after Article VII, Section 8, that reads, “The Club Operations Committee shall be a standing Committee of the Executive Board.  
+    (a) It shall review all applications for the classification of new organizations and changes in classifications for old ones and make recommendations to the Board.
+    (b) It shall review and approve the constitutions of all clubs operating within the Rensselaer Union.  
+    (c) It shall review any application by a club for funding as per the *New Club Funding Policy* and administer the club’s starter budget, pending approval of the Executive Board.  
+    (d) It shall review and hold clubs accountable in accordance with the *Club Renewal Policy* and the *Club Sunsetting Policy*.”
+    3. Inserting a new section after Article VII, Section 11, that reads, “The Student Government Communications Committee shall be a standing joint committee of both the Senate and the Executive Board.  
+    (a) The duties and responsibilities of this joint committee are outlined in the bylaws of the Rensselaer Union Student Senate.”
+    4. Inserting a new section after Article VII, Section 11, that reads, “The Union Annual Report Committee shall be a standing joint committee of the both the Senate and the Executive Board.  
+    (a) The duties and responsibilities of this joint committee are outlined in the bylaws of the Rensselaer Union Student Senate.”
+    5. Inserting a new section after Article VII, Section 11, that reads, “The Rules and Elections Committee of the Student Senate shall have at least one representative of the Executive Board sit on the committee appointed by the President of the Union.  
+    (a) The duties and responsibilities of this committee are outlined in the bylaws of the Rensselaer Union Student Senate.”</text>
+  <status>Passed</status>
+  <votesFor>22</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>195</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>14</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Committee Acting Chair Requirement</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To approve the amendments to the specified Articles and Sections to the *Bylaws of the Rensselaer Union Student Senate*, as suggested by the Internal Reforms Committee:
+    1. **Article 9, Section 1, Item (c)**: "If the committee does not have a Vice Chair, an acting Chair should be selected by either the committee's chair, if possible, or the Grand Marshal to fulfill the Chair's duties in their absence."</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <movingSubbodyUniqueId>irc</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>14</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Vice Grand Marshal Title Change</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To approve the amendments to the specified Articles and Sections to the *Bylaws of the Rensselaer Union Student Senate*, as suggested by the Internal Reforms Committee:
+    1. **Article 3, Section 2, Item (b)**: "The Vice Grand Marshal,"
+    2. **Article 3, Section 6**: "The Vice Grand Marshal shall be responsible for:
+    3. **Article 3 Section 6, Item (c)**: "Acting as the substitute for the Grand Marshal at any meetings that the Grand Marshal cannot attend. At such a meeting, the Vice Grand Marshal shall not count towards quorum and may only vote to break a tie;"
+    4. **Article 13, Section 1**: "If the position of the Grand Marshal is vacant, or if the Grand Marshal is unable to fulfill the duties or requirements of office, then the Vice Grand Marshal shall assume the duties of the Grand Marshal as Acting Chair of the Senate.</text>
+  <status>Passed</status>
+  <votesFor>17</votesFor>
+  <votesAgainst>3</votesAgainst>
+  <abstentions>2</abstentions>
+  <movingSubbodyUniqueId>irc</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>14</meetingNum>
+  <actionNum>3</actionNum>
+  <description>Endorsement of Select Revisions to the Rensselaer Handbook of Student Rights and Responsibilites</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To endorse the following edits to the *Rensselaer Handbook of Student Rights and Responsibilities*, as proposed by the Student Life Committee on November 8, 2017 by a vote of 11-0-0:
+    1. Global Changes
+        1. Removed all Handbook dates. 
+        2. All office names and titles have been updated. 
+    2. Grounds for Disciplinary Action
+        1. 10\. Physical assault “or conduct that threatens, encourages, or causes physical harm to persons or property.”
+        2. 12\. Willful failure or refusal… “or where the procedures governing the investigation or proceeding expressly grant a right of non-participation”
+        3. 13\. Conduct which endangers the safety of the Institute community, including, but not limited to, tampering with fire-warning devices, “fire protection systems, portable fire extinguishers, and other fire safety equipment…”
+    3. Components of the Judicial System
+        1. Under the Judicial Inquiry Section, “In addition, at the sole discretion of the Dean of Students Office, and to the extent applicable law permits, a copy of the letter may be sent to the student's parent(s) or guardian(s)”
+        2. Under the Grounds for Appeal section, Note addendum, “A mandatory minimum sanction cannot be reduced or appealed, other than for mitigation purposes relating to organizations as specified in the Good Samaritan Policy.”
+        3. Under the Judicial Hearing Boards section, Judicial Board subsection, “The Judicial Board has jurisdiction… except where other Institute policies or procedures grant jurisdiction to other panels (e.g., Sexual Misconduct Policy)...”
+        4. Under the Judicial Hearing Boards section, Review Board subsection, “The decision of a lower board (other than the Faculty Academic Board) may be appealed to the Review Board, by either party.”
+    4. Record of Disciplinary Action
+        1. Changed titled to “Disclosure of Disciplinary Action”
+        2. Removed the paragraph stating that the Judicial System determines the length of time a disciplinary action will remain on student record because that language was not reflective of current practice. 
+        3. Clarified that “Any disciplinary action can be disclosed to federal, state, or local government entity, law, enforcement, licensing or certification board, or corporate entity upon request of said agency if and only if: (a) by subpoena or binding order of a court or government agency, or  (b) a student signs a confidentiality waiver for said agency or government entity, or (c) such disclosure is otherwise in compliance with state and federal laws, including the Family Educational Rights and Privacy Act of 1974 (FERPA).”
+    5. Policy on Transcript Notation
+        1. Removed all references to “Student Code of Conduct” as that is not the name Rensselaer gives to its Handbook and policies. 
+    6. Academic Dishonesty
+        1. Made clarifying changes to the Faculty  Procedures for responding to Academic Dishonesty that were recommended by the Academic Dishonesty Task Force. 
+            1. “Faculty who choose to apply an academic sanction to a student found responsible for committing academic dishonesty must complete the Academic Integrity Violation Case Summary and Report Form.”
+            2. Further information was added to include how this form would be handled. 
+    7. Non-Discrimination/Equal-Opportunity
+        1. Changed title to “Non-Discrimination/Harassment Prevention/Equal Opportunity Policy”
+        2. Made updates recommended by HR to include harassment and updated information on the Title IX coordinators. 
+        3. Added information about reporting and external reporting options. 
+        4. Moved discrimination/harassment/retaliation reporting subsection from the Sexual Misconduct section to this section, as it covers a broader set of conduct that better fits here. 
+        5. Updated reporting channels to include Public Safety and full title of AVP &amp; Dean of Students. 
+    8. Computer Use at Rensselaer 
+        1. Made updates to reflect the new cyber-citizenship policy (previously passed). 
+    9. Security Technology, Access Control System, and Emergency Phones
+        1. Created this section 
+            1. “The Institute has installed security technology, access control system, emergency exit alarms, and emergency phones to facilitate the safety and security of the campus. Tampering with the security cameras, access control devices, emergency exit alarms, and/or emergency phones creates a safety and security risk and are serious offenses which will be treated as such. 
+    10. Steam Tunnels, Designated Confined Spaces, &amp; Roofs
+        1. Added language to include roofs and access to roofs as being prohibited unless specifically authorized by the Division of Administration and Environmental Health and Safety. 
+    11. Student Sexual Misconduct Policy
+        1. Created a more succinct and updated summary of the policy. 
+        2. Included a link to the full policy. 
+        3. Updated the Title IX Coordinator names/numbers. 
+        4. Added additional external reporting information. 
+    12. Necessary changes offered by the Student Life Committee: 
+        1. Adding a section in the Introduction that states “Changes to this Handbook will be communicated to the Rensselaer community. Such communication will include access to the updated Handbook.” 
+        2. Adding a paragraph at the end of the introduction stating:
+            1. “Changes to this Handbook shall be made if and only if there is direct involvement by the Student Life Committee and the changes are approved by the Student Senate by a ⅔ majority vote.
+        3. Student Conduct for Individuals and Groups
+            1. “Any invasion of individual rights of privacy or activity… is strictly forbidden for all Rensselaer students.”
+        4. Hazing
+            1. Revised the section to read: “No Rensselaer Student or Rensselaer affiliated group may haze another at any time including initiation into, or affiliation with, any organization or on-going association or membership.”
+        5. Added links to the Campus Climate Assessment and the Annual Security Report, both of which to be made easily available to the campus community, in compliance with New York State and federal laws.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>2</abstentions>
+  <movingSubbodyUniqueId>slc</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>15</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Confirmation of Interim Parliamentarian Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To confirm the Grand Marshal's interim appointment of Stefanie Warner as Interim Parliamentarian, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>184</movingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>15</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Approval of Proposed FY19 Senate Budget</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To approve the proposed budget for the Student Senate for Fiscal Year 2019, as presented on November 20, 2017, and
+2. To adjust the proposed budget to ask for a quantity of 13 on the "Shuttle Runs" line item in Goal C, Program 3.</text>
+  <status>Passed</status>
+  <votesFor>18</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>1</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>174</movingMemberId>
+  <secondingMemberId>211</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>16</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Student Government Communications Committee Structure Bylaws Amendment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To amend The Bylaws of the Rensselaer Union Student Senate by striking Article IX, Section 8 and inserting the following in its place:  
+"The Student Government Communications Committee, hereby referred to as SGCC, shall be a standing committee of the Student Senate and the Executive Board. It shall be responsible for promoting the initiatives and activities of the Student Senate, Executive Board, Undergraduate Council, Graduate Council, and Judicial Board, hereby referred to as The Bodies.
+    1. Its Chairperson shall serve at the pleasure of the Grand Marshal and the President of the Union, and shall meet with the Grand Marshal, the President of the Union, or their representatives at least twice a month over the Fall and Spring semesters to maintain cohesion and communication between their respective bodies.
+    2. Its Chairperson may act as the spokesperson for the Student Senate and Executive Board at the discretion of the Grand Marshal and the President of the Union, responsible for press releases and other communication with media outlets.
+    3. Its membership shall include at least one member of the Student Senate, at least one member of the Executive Board, Director of Public Relations of the Undergraduate Council, and a Vice Chairperson appointed by the Chairperson.
+    4. It shall make use of a variety of communication media to publicize the initiatives and activities of The Bodies.
+        1. To this end, it shall coordinate with The Bodies to promote current projects and initiatives.
+        2. It shall provide the student body with accurate information on the activities, initiatives, and projects of The Bodies.
+    5. It shall make efforts to ascertain the concerns and opinions of students regarding matters under discussion in the Student Senate and the Executive Board.
+        1. It may solicit student concerns and opinions through public relations initiatives.
+        2. It shall inform other Committees of student concerns pertaining to the purview of each Committee.
+    6. It shall foster, among the student body, informed discussion of issues currently facing the The Bodies.
+        1. It shall, when necessary, create and distribute informational media in conjunction with its ongoing public relations initiatives.
+        2. It shall create and maintain platforms for student inquiry into the activities of the Committees.
+        3. It may coordinate publication of electronic media with the Web Technologies Group when necessary.
+        4. It may collaborate with the Marketing, Advertising and Publicity Committee of the Executive Board on projects when necessary.
+    7. It shall promote cohesion among all members of The Bodies.
+        1. It shall be the responsibility of the Chairpersons, or designated representative, of each Student Senate committee to correspond with both the SGCC Chairperson and the Vice Grand Marshal on all publicity information.
+        2. It shall be the responsibility of the Chairpersons, or designated representative, of each Executive Board committee to correspond with both the SGCC Chairperson and the Vice President of the Union on all publicity information.
+        3. It shall be the responsibility of the Director of Public Relations of the Undergraduate Council to correspond with both the SGCC Chairperson and the Undergraduate Council President on all publicity information.
+        4. It shall be the responsibility of the Graduate Council’s designated representative to correspond with the SGCC Chairperson for publicity information.
+        5. It shall be the responsibility of the Chairperson of the Judicial Board to correspond with the SGCC Chairperson on all publicty information.
+        6. To this end, it shall promote and facilitate internal communications of the The Bodies."</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingSubbodyUniqueId>sgcc</movingSubbodyUniqueId>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>17</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Resolution on Recent Judicial Actions</description>
+  <text>WHEREAS the Student Senate is aware of the judicial processes underway involving members of the Rensselaer Union in relation to the peaceful demonstration that occurred on October 13th, 2017;
+
+WHEREAS the Student Senate reaffirms the right for the Dean of Students Office, when there is evidence to cause concern of a possible Grounds for Disciplinary Action (GDA), to start a judicial process;
+
+WHEREAS the Student Senate has heard the witness testimony of one of the members standing accused of three (3) counts of GDA violations and understands that both accused students did not organize the peaceful demonstration held on October 13th, 2017;
+
+WHEREAS the Student Senate is fully aware of the failure to fulfill the duty charged to the Dean of Students Office to either alert, or have a designee alert, students in the event of a GDA violation to allow said violators to correct themselves (e.g. “comply”); and
+
+WHEREAS the Student Senate is deeply concerned by the actions the Dean of Students Office, in which they, knowing the duties of their office, then initiated the judicial process against two students in direct contradiction of the *Rensselaer Handbook of Student Rights and Responsibilities;
+
+The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To urge for the immediate cancellations of judicial processes involving the peaceful demonstration against the students who attended said peaceful demonstration,
+2. To encourage the Dean of Students Office to follow the section of the *Rensselaer Handbook of Student Rights and Responsibilities* that states, “It must be emphasized that judgment as to whether the regulations are being observed shall not be exercised by demonstrators, those demonstrated against, or spectators in contradiction to the expressed judgment of the Dean of Students or designee, except at the risk of such individuals,” which outlines that the accused explicitly do not have jurisdiction over the judgment of the actions of their peers, and
+3. To recognize the actions taken by the Dean of Students Office as violations of the *Rensselaer Handbook of Student Rights and Responsibilities*, specifically the *Student Bill of Rights*, Article V, Section D.</text>
+  <status>Passed</status>
+  <votesFor>16</votesFor>
+  <votesAgainst>5</votesAgainst>
+  <abstentions>2</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>175</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>20</meetingNum>
+  <actionNum>1</actionNum>
+  <description>Approval of FY19 Union Activity Fee Recommendation</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:  1. To approve a Union Activity Fee recommendation for Fiscal Year 2019 of $380.00 for undergraduate students with undergraduate class dues of $13.50, creating a total Activity Fee recommendation of $393.50 for undergraduate students, and 2. To approve a Union Activity Fee recommendation for Fiscal Year 2019 of $330.00 for graduate students with graduate class dues of $12.00, creating a total Activity Fee recommendation of $342.00 for graduate students</text>
+  <status>Passed</status>
+  <votesFor>17</votesFor>
+  <votesAgainst>3</votesAgainst>
+  <abstentions>0</abstentions>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+  <movingMemberId>175</movingMemberId>
+  <secondingMemberId>178</secondingMemberId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>20</meetingNum>
+  <actionNum>2</actionNum>
+  <description>Greek Senator Vacancy Appointment Bylaws Amendment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To amend *the Bylaws of the Rensselaer Union Student Senate* by inserting the following as a new item of Article XI:  
+"If the either Greek Senator position becomes vacant, the President of either the Interfraternity Council or the Panhellenic Council, for their council's respective Greek Senator, shall appoint a replacement. The appointment shall be confirmed by simple majority vote of the Student Senate."</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingOtherEntity></movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>20</meetingNum>
+  <actionNum>3</actionNum>
+  <description>Confirmation of Greek Senator (Panhellenic) Appointment</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To confirm the Panhellenic Council President's appointment of Samantha Wong '20 to the position of Greek Senator representing Panhellenic Council-affiliated houses.</text>
+  <status>Passed</status>
+  <votesFor>20</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingOtherEntity></movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>20</meetingNum>
+  <actionNum>4</actionNum>
+  <description>Confirmation of Executive Board Club/ICA Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To approve the President of the Union's appointment of Ryan Delaney as a Club/Intercollegiate Athletics Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingOtherEntity></movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <meetingNum>20</meetingNum>
+  <actionNum>5</actionNum>
+  <description>Confirmation of Executive Board Member-at-Large Representative</description>
+  <text>The Rensselaer Union 48th Student Senate hereby RESOLVES:
+
+1. To approve the President of the Union's appointment of Cohen Davis as a Member-at-Large Representative to the Executive Board, effective immediately.</text>
+  <status>Passed</status>
+  <votesFor>21</votesFor>
+  <votesAgainst>0</votesAgainst>
+  <abstentions>0</abstentions>
+  <movingOtherEntity></movingOtherEntity>
+  <createdAt>2020-11-18T21:16:46.752+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:46.752+00:00</updatedAt>
+</row>
+
+</table>
+
