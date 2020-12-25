@@ -1,0 +1,39 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <uniqueId>senate</uniqueId>
+  <name>Student Senate</name>
+  <createdAt>2020-11-18T21:16:44.466+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.466+00:00</updatedAt>
+</row>
+
+<row>
+  <uniqueId>eboard</uniqueId>
+  <name>Executive Board</name>
+  <createdAt>2020-11-18T21:16:44.466+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.466+00:00</updatedAt>
+</row>
+
+<row>
+  <uniqueId>jboard</uniqueId>
+  <name>Judicial Board</name>
+  <createdAt>2020-11-18T21:16:44.466+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.466+00:00</updatedAt>
+</row>
+
+<row>
+  <uniqueId>uc</uniqueId>
+  <name>Undergraduate Council</name>
+  <createdAt>2020-11-18T21:16:44.466+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.466+00:00</updatedAt>
+</row>
+
+<row>
+  <uniqueId>gc</uniqueId>
+  <name>Graduate Council</name>
+  <createdAt>2020-11-18T21:16:44.466+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.466+00:00</updatedAt>
+</row>
+
+</table>
+

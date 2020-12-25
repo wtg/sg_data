@@ -1,0 +1,482 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>aac</uniqueId>
+  <name>Academic Affairs Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>6</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>crc</uniqueId>
+  <name>Community Relations Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>8</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>fsc</uniqueId>
+  <name>Facilities and Services Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>7</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>hsac</uniqueId>
+  <name>Hospitality Services Advisory Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>28</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>hri</uniqueId>
+  <name>Human Resources Interview Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>27</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>irc</uniqueId>
+  <name>Internal Reforms Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>10</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>ec</uniqueId>
+  <name>Elections Commission</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>29</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>slc</uniqueId>
+  <name>Student Life Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>5</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>sgcc</uniqueId>
+  <name>Student Government Communications Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>4</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>uar</uniqueId>
+  <name>Union Annual Report Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>9</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>48</sessionUniqueId>
+  <uniqueId>wtg</uniqueId>
+  <name>Web Technologies Group</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>23</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>aac</uniqueId>
+  <name>Academic Affairs Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>6</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>crc</uniqueId>
+  <name>Community Relations Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>8</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>fsc</uniqueId>
+  <name>Facilities and Services Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>7</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>hsac</uniqueId>
+  <name>Hospitality Services Advisory Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>28</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>ertf</uniqueId>
+  <name>Elections Reform Task Force</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>ec</uniqueId>
+  <name>Elections Commission</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>29</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>slc</uniqueId>
+  <name>Student Life Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>5</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>sgcc</uniqueId>
+  <name>Student Government Communications Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>4</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>uar</uniqueId>
+  <name>Union Annual Report Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>9</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>49</sessionUniqueId>
+  <uniqueId>wtg</uniqueId>
+  <name>Web Technologies Group</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>23</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>aac</uniqueId>
+  <name>Academic Affairs Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>6</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>crc</uniqueId>
+  <name>Community Relations Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>8</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>fsc</uniqueId>
+  <name>Facilities and Services Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>7</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>hsac</uniqueId>
+  <name>Hospitality Services Advisory Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>28</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>atf</uniqueId>
+  <name>Arch Task Force</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>ec</uniqueId>
+  <name>Elections Commission</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>29</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>slc</uniqueId>
+  <name>Student Life Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>5</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>sgcc</uniqueId>
+  <name>Student Government Communications Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>4</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>uar</uniqueId>
+  <name>Union Annual Report Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>9</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>50</sessionUniqueId>
+  <uniqueId>wtg</uniqueId>
+  <name>Web Technologies Group</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>23</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>51</sessionUniqueId>
+  <uniqueId>aac</uniqueId>
+  <name>Academic Affairs Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>6</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>51</sessionUniqueId>
+  <uniqueId>fsc</uniqueId>
+  <name>Facilities and Services Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>7</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>51</sessionUniqueId>
+  <uniqueId>ec</uniqueId>
+  <name>Elections Commission</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>29</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>51</sessionUniqueId>
+  <uniqueId>slc</uniqueId>
+  <name>Student Life Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>5</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>51</sessionUniqueId>
+  <uniqueId>sgcc</uniqueId>
+  <name>Student Government Communications Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>4</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>51</sessionUniqueId>
+  <uniqueId>uar</uniqueId>
+  <name>Union Annual Report Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>9</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <sessionUniqueId>51</sessionUniqueId>
+  <uniqueId>wtg</uniqueId>
+  <name>Web Technologies Group</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>23</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>policies</uniqueId>
+  <name>Union Policies Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>33</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>busops</uniqueId>
+  <name>Union Business Operations Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>30</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>clubops</uniqueId>
+  <name>Union Club Operations Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>31</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>upac</uniqueId>
+  <name>Union Programming and Activities Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>34</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>map</uniqueId>
+  <name>Union Marketing, Advertising, and Publicity Committee</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>32</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>smvc</uniqueId>
+  <name>Student Motor Vehicle Court</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>35</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>2018</uniqueId>
+  <name>Class of 2018 Council</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>36</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>2019</uniqueId>
+  <name>Class of 2019 Council</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>37</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>2020</uniqueId>
+  <name>Class of 2020 Council</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>38</presidingOfficerPositionId>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <sessionUniqueId>17-18</sessionUniqueId>
+  <uniqueId>2021</uniqueId>
+  <name>Class of 2021 Council</name>
+  <createdAt>2020-11-18T21:16:45.617+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:45.617+00:00</updatedAt>
+  <presidingOfficerPositionId>39</presidingOfficerPositionId>
+</row>
+
+</table>
+

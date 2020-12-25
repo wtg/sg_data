@@ -1,0 +1,859 @@
+<table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>51</uniqueId>
+  <name>51th Student Senate</name>
+  <active>true</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>50</uniqueId>
+  <name>50th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>49</uniqueId>
+  <name>49th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>48</uniqueId>
+  <name>48th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>47</uniqueId>
+  <name>47th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>46</uniqueId>
+  <name>46th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>45</uniqueId>
+  <name>45th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>44</uniqueId>
+  <name>44th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>43</uniqueId>
+  <name>43rd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>42</uniqueId>
+  <name>42nd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>41</uniqueId>
+  <name>41st Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>40</uniqueId>
+  <name>40th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>39</uniqueId>
+  <name>39th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>38</uniqueId>
+  <name>38th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>37</uniqueId>
+  <name>37th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>36</uniqueId>
+  <name>36th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>35</uniqueId>
+  <name>35th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>34</uniqueId>
+  <name>34th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>33</uniqueId>
+  <name>33rd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>32</uniqueId>
+  <name>32nd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>31</uniqueId>
+  <name>31st Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>30</uniqueId>
+  <name>30th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>29</uniqueId>
+  <name>29th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>28</uniqueId>
+  <name>28th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>27</uniqueId>
+  <name>27th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>26</uniqueId>
+  <name>26th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>25</uniqueId>
+  <name>25th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>24</uniqueId>
+  <name>24th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>23</uniqueId>
+  <name>23rd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>22</uniqueId>
+  <name>22nd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>21</uniqueId>
+  <name>21st Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>20</uniqueId>
+  <name>20th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>19</uniqueId>
+  <name>19th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>18</uniqueId>
+  <name>18th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>17</uniqueId>
+  <name>17th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>16</uniqueId>
+  <name>16th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>15</uniqueId>
+  <name>15th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>14</uniqueId>
+  <name>14th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>13</uniqueId>
+  <name>13th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>12</uniqueId>
+  <name>12th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>11</uniqueId>
+  <name>11th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>10</uniqueId>
+  <name>10th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>9</uniqueId>
+  <name>9th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>8</uniqueId>
+  <name>8th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>7</uniqueId>
+  <name>7th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>6</uniqueId>
+  <name>6th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>5</uniqueId>
+  <name>5th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>4</uniqueId>
+  <name>4th Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>3</uniqueId>
+  <name>3rd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>2</uniqueId>
+  <name>2nd Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>senate</bodyUniqueId>
+  <uniqueId>1</uniqueId>
+  <name>1st Student Senate</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>20-21</uniqueId>
+  <name>2020-21 Executive Board</name>
+  <active>true</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>19-20</uniqueId>
+  <name>2019-20 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>18-19</uniqueId>
+  <name>2018-19 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>17-18</uniqueId>
+  <name>2017-18 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>16-17</uniqueId>
+  <name>2016-17 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>15-16</uniqueId>
+  <name>2015-16 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>14-15</uniqueId>
+  <name>2014-15 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>13-14</uniqueId>
+  <name>2013-14 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>12-13</uniqueId>
+  <name>2012-13 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>11-12</uniqueId>
+  <name>2011-12 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>eboard</bodyUniqueId>
+  <uniqueId>10-11</uniqueId>
+  <name>2010-11 Executive Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>20-21</uniqueId>
+  <name>2020-21 Judicial Board</name>
+  <active>true</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>19-20</uniqueId>
+  <name>2019-20 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>18-19</uniqueId>
+  <name>2018-19 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>17-18</uniqueId>
+  <name>2017-18 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>16-17</uniqueId>
+  <name>2016-17 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>15-16</uniqueId>
+  <name>2015-16 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>14-15</uniqueId>
+  <name>2014-15 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>13-14</uniqueId>
+  <name>2013-14 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>12-13</uniqueId>
+  <name>2012-13 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>11-12</uniqueId>
+  <name>2011-12 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>jboard</bodyUniqueId>
+  <uniqueId>10-11</uniqueId>
+  <name>2010-11 Judicial Board</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>20-21</uniqueId>
+  <name>2020-21 Undergraduate Council</name>
+  <active>true</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>19-20</uniqueId>
+  <name>2019-20 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>18-19</uniqueId>
+  <name>2018-19 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>17-18</uniqueId>
+  <name>2017-18 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>16-17</uniqueId>
+  <name>2016-17 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>15-16</uniqueId>
+  <name>2015-16 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>14-15</uniqueId>
+  <name>2014-15 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>13-14</uniqueId>
+  <name>2013-14 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>12-13</uniqueId>
+  <name>2012-13 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>11-12</uniqueId>
+  <name>2011-12 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>uc</bodyUniqueId>
+  <uniqueId>10-11</uniqueId>
+  <name>2010-11 Undergraduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>20-21</uniqueId>
+  <name>2020-21 Graduate Council</name>
+  <active>true</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>19-20</uniqueId>
+  <name>2019-20 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>18-19</uniqueId>
+  <name>2018-19 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>17-18</uniqueId>
+  <name>2017-18 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>16-17</uniqueId>
+  <name>2016-17 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>15-16</uniqueId>
+  <name>2015-16 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>14-15</uniqueId>
+  <name>2014-15 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>13-14</uniqueId>
+  <name>2013-14 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>12-13</uniqueId>
+  <name>2012-13 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>11-12</uniqueId>
+  <name>2011-12 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+<row>
+  <bodyUniqueId>gc</bodyUniqueId>
+  <uniqueId>10-11</uniqueId>
+  <name>2010-11 Graduate Council</name>
+  <active>false</active>
+  <createdAt>2020-11-18T21:16:44.689+00:00</createdAt>
+  <updatedAt>2020-11-18T21:16:44.689+00:00</updatedAt>
+</row>
+
+</table>
+
